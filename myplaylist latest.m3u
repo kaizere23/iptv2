@@ -34,7 +34,7 @@ https://d25tgymtnqzu8s.cloudfront.net/smil:negara/playlist.m3u8?id=8
 #EXTINF:g-id="SukanRTM.my",017. Sukan RTM [Geo-blocked]
 https://d25tgymtnqzu8s.cloudfront.net/smil:sukan/manifest.mpd
 #EXTINF:-1,018. SukeTV
-https://live.mana2.my/SukeTv/tracks-v3a1/mono.m3u8?token=1737967708-6c4a77952ba54994bca1d1b42a25a9ff-0-cad10cd199e88d2929b408c8be8c1ed2&auth_key=1737967708-6c4a77952ba54994bca1d1b42a25a9ff-0-62395772fedde668bc956395e9318353
+https://live.mana2.my/SukeTv/tracks-v3a1/mono.m3u8?token=1737990615-775af38dc29048629a1f896632bf8805-0-a8eb655a3b14a5d4d851c38ae3ba46d5&auth_key=1737990615-775af38dc29048629a1f896632bf8805-0-e6c7db855390bcd134c620d1e05f0ff2
 #EXTINF:-1,019. TVAH
 https://live.mana2.my/TvAlhijrah/tracks-v3a1/mono.m3u8?token=1737968222-701e75719a0143f4b10256248cba62f4-0-ebf189e2abc9f4a43c7a0a8e6ebe5130&auth_key=1737968222-701e75719a0143f4b10256248cba62f4-0-c69ea154449d7a8bde210ce696521983
 #EXTINF:1,020. TVS
