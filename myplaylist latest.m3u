@@ -34,9 +34,9 @@ https://d25tgymtnqzu8s.cloudfront.net/smil:negara/playlist.m3u8?id=8
 #EXTINF:g-id="SukanRTM.my",017. Sukan RTM [Geo-blocked]
 https://d25tgymtnqzu8s.cloudfront.net/smil:sukan/manifest.mpd
 #EXTINF:-1,018. SukeTV
-https://live.mana2.my/SukeTv/tracks-v3a1/mono.m3u8?token=1737990615-775af38dc29048629a1f896632bf8805-0-a8eb655a3b14a5d4d851c38ae3ba46d5&auth_key=1737990615-775af38dc29048629a1f896632bf8805-0-e6c7db855390bcd134c620d1e05f0ff2
+https://live.mana2.my/SukeTv/index.m3u8?auth_key=1738071567-a44de96e25064bcfb4ed9e6911fa17d7-0-a1385512a48fa50a07f4badf9f1f2009&token=1738071567-a44de96e25064bcfb4ed9e6911fa17d7-0-a1385512a48fa50a07f4badf9f1f2009
 #EXTINF:-1,019. TVAH
-https://live.mana2.my/TvAlhijrah/tracks-v3a1/mono.m3u8?token=1737968222-701e75719a0143f4b10256248cba62f4-0-ebf189e2abc9f4a43c7a0a8e6ebe5130&auth_key=1737968222-701e75719a0143f4b10256248cba62f4-0-c69ea154449d7a8bde210ce696521983
+https://live.mana2.my/TvAlhijrah/index.m3u8?auth_key=1738055923-a56dedf199d7401da7912e1128e7cfc7-0-78eee3019d1eebbbde811130bce0c0a6&token=1738055923-a56dedf199d7401da7912e1128e7cfc7-0-78eee3019d1eebbbde811130bce0c0a6
 #EXTINF:1,020. TVS
 https://stream2.smg.my/live/tvsplus_360p878kbs/index.m3u8
 #EXTINF:-1,021. BBC Earth
