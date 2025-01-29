@@ -7,7 +7,7 @@ https://d25tgymtnqzu8s.cloudfront.net/smil:tv1/playlist.m3u8?id=1
 https://d25tgymtnqzu8s.cloudfront.net/smil:tv2/playlist.m3u8?id=2
 #EXTINF:g-id="TV3.my" tvg-logo="https://www.logoquake.com/uploadfile/2024/0507/tv3_5ad4ee.png" group-title="Malaysia",003. TV3
 https://tonton-live-switch-ssar.akamaized.net/stream-tv3/master.m3u8?bpkio_serviceid=6c0958d82a830a02ca0936d9cfab8311
-#EXTINF:g-id="ArirangTV.kr" tvg-logo="https://i.imgur.com/Asu5pE9.png,004" group-title="korea". Arirang TV (720p)
+#EXTINF:g-id="ArirangTV.kr" tvg-logo="https://i.imgur.com/Asu5pE9.png " group-title="korea",004. Arirang TV (720p)
 http://amdlive-ch02.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
 #EXTINF:g-id="AstroAwani.my" tvg-logo="https://yapchankor.com/wp-content/uploads/2023/06/Astro-Awani-logo-color.png" group-title="Malaysia",005. Astro Awani (720p)
 https://d2idp3hzkhjpih.cloudfront.net/out/v1/4b85d9c2bf97413eb0c9fd875599b837/index.m3u8
