@@ -55,16 +55,16 @@ https://dminnvllta.cdn.mgmlcdn.com/dubaione/smil:dubaione.stream.smil/chunklist.
 https://dmieigthvllta.cdn.mgmlcdn.com/dubaitvht/smil:dubaitv.stream.smil/chunklist.m3u8
 #EXTINF:g-id="KBSDrama.kr",028. KBS Drama (480p)
 http://mytv.dothome.co.kr/ch/catv/2.php
-#EXTINF:g-id="HLDHDTV.kr",029. SBS KBC (1080p) [Not 24/7]
-http://119.200.131.11:1935/KBCTV/tv/playlist.m3u8
-#EXTINF:g-id="CGNTVJapan.jp",030. CGNTV Japan (1080p)
+#EXTINF:g-id="HLDRDTV.kr",029. SBS CJB (540p) [Not 24/7]
+http://1.222.207.80:1935/live/cjbtv/playlist.m3u8
+#EXTINF:-1 tvg-id="HLATDTV.kr",030. MBC Yeosu (여수 MBC) (1080p) [Not 24/7]
+https://5c3639aa99149.streamlock.net/live_TV/tv/playlist.m3u8
+#EXTINF:g-id="CGNTVJapan.jp",031. CGNTV Japan (1080p)
 https://d2p4mrcwl6ly4.cloudfront.net/out/v1/8d50f69fdbbf411a8d302743e4263716/CGNWebLiveJP.m3u8
-#EXTINF:g-id="KBSWorld.kr",031. KBS World (720p)
+#EXTINF:g-id="KBSWorld.kr",032. KBS World (720p)
 https://kbsworld-ott.akamaized.net/hls/live/2002341/kbsworld/master.m3u8
-#EXTINF:g-id="KTV.kr",032. Korea TV (1080p)
+#EXTINF:g-id="KTV.kr",033. Korea TV (1080p)
 https://hlive.ktv.go.kr/live/klive_h.stream/playlist.m3u8
-#EXTINF:g-id="MaahTV.my",033. Maah TV (720p) [Not 24/7]
-https://hls.maahtv.live/hls/stream.m3u8
 #EXTINF:g-id="MakkahTV.sa",034. Makkah TV (576p)
 https://media2.streambrothers.com:1936/8122/8122/playlist.m3u8
 #EXTINF:g-id="MBCPlusDrama.sa",035. MBC+ Drama (1080p)
