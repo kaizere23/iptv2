@@ -7,23 +7,23 @@ https://d25tgymtnqzu8s.cloudfront.net/smil:tv1/playlist.m3u8?id=1
 https://d25tgymtnqzu8s.cloudfront.net/smil:tv2/playlist.m3u8?id=2
 #EXTINF:g-id="TV3.my" tvg-logo="https://www.logoquake.com/uploadfile/2024/0507/tv3_5ad4ee.png" group-title="Malaysia",003. TV3
 https://tonton-live-switch-ssar.akamaized.net/stream-tv3/master.m3u8?bpkio_serviceid=6c0958d82a830a02ca0936d9cfab8311
-#EXTINF:g-id="ArirangTV.kr" tvg-logo="https://i.imgur.com/Asu5pE9.png " group-title="korea",004. Arirang TV (720p)
+#EXTINF:g-id="ArirangTV.kr" tvg-logo="https://i.imgur.com/Asu5pE9.png" group-title="korea",004. Arirang TV (720p)
 http://amdlive-ch02.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
 #EXTINF:g-id="AstroAwani.my" tvg-logo="https://yapchankor.com/wp-content/uploads/2023/06/Astro-Awani-logo-color.png" group-title="Malaysia",005. Astro Awani (720p)
 https://d2idp3hzkhjpih.cloudfront.net/out/v1/4b85d9c2bf97413eb0c9fd875599b837/index.m3u8
-#EXTINF:g-id="TV6.my",006. TV6 [Geo-blocked]
+#EXTINF:g-id="TV6.my" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/dd/TV6_RTM.png" group-title="Malaysia",006. TV6 [Geo-blocked]
 https://d25tgymtnqzu8s.cloudfront.net/smil:tv6/playlist.m3u8?id=6
-#EXTINF:g-id="CrimePlusInvestigationAsia.sg",007. Crime + Investigation Asia HD (720p) [Geo-blocked]
+#EXTINF:g-id="CrimePlusInvestigationAsia.sg" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/71/Crime_and_Investigation_logo.png" group-title="Documentary",007. Crime + Investigation Asia HD (720p) [Geo-blocked]
 https://cdn09jtedge.indihometv.com/joss/133/crimeinvestigation/index.m3u8
-#EXTINF:g-id="AlQuranAlKareemTV.sa",008. Al Quran Al Kareem TV (1080p)
+#EXTINF:g-id="AlQuranAlKareemTV.sa" tvg-logo="https://1.bp.blogspot.com/-G8AiREdNvYI/V4JSsE4HoZI/AAAAAAAAEBc/nN0nIrUiovcKjftgJqxvXgh3QM0P57kwgCLcB/s1600/al_quran_al_kareem_tv.png" group-title="Malaysia",008. Al Quran Al Kareem TV (1080p)
 https://al-ekhbaria-prod-dub.shahid.net/out/v1/9885cab0a3ec4008b53bae57a27ca76b/index.m3u8
-#EXTINF:g-id="TV9.my",009. TV9
+#EXTINF:g-id="TV9.my" tvg-logo="https://seeklogo.com/images/T/tv9-malaysia-logo-552F86004F-seeklogo.com.png" group-title="Malaysia",009. TV9
 https://tonton-live-switch-ssar.akamaized.net/stream-tv9/master.m3u8?bpkio_serviceid=6c0958d82a830a02ca0936d9cfab8311
-#EXTINF:g-id="Okey.my",010. Okey RTM [Geo-blocked]
+#EXTINF:g-id="Okey.my" tvg-logo="https://i.pinimg.com/originals/1c/5b/3e/1c5b3eb05c9e03b1d750e75750da012b.png" group-title="Malaysia",010. Okey RTM [Geo-blocked]
 https://d25tgymtnqzu8s.cloudfront.net/smil:okey/playlist.m3u8?id=3
-#EXTINF:g-id="TVIKIM.my",011. TVIKIM
+#EXTINF:g-id="TVIKIM.my" tvg-logo="https://www.tvikim.my/images/Logo-tvikim-black.png" group-title="Malaysia",011. TVIKIM
 https://edge-sg1.vediostream.com/abr/tvikim/playlist.m3u8
-#EXTINF:g-id="BeritaRTM.my",012. Berita RTM [Geo-blocked]
+#EXTINF:g-id="BeritaRTM.my" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/Logo_Berita_RTM.png" group-title="Malaysia",012. Berita RTM [Geo-blocked]
 https://d25tgymtnqzu8s.cloudfront.net/smil:berita/playlist.m3u8?id=5
 #EXTINF:g-id="DuniaSinema.my" tvg-logo="https://playtv.unifi.com.my:7047/CPS/images/universal/film/logo/.......,013. Dunia Sinema (1080p)
 https://unifi-live05.secureswiftcontent.com/UnifiHD/live27-1080FHD.m3u8
