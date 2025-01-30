@@ -17,7 +17,7 @@ https://d25tgymtnqzu8s.cloudfront.net/smil:tv6/playlist.m3u8?id=6
 https://cdn09jtedge.indihometv.com/joss/133/crimeinvestigation/index.m3u8
 #EXTINF:g-id="AlQuranAlKareemTV.sa" tvg-logo="https://1.bp.blogspot.com/-G8AiREdNvYI/V4JSsE4HoZI/AAAAAAAAEBc/nN0nIrUiovcKjftgJqxvXgh3QM0P57kwgCLcB/s1600/al_quran_al_kareem_tv.png" group-title="Malaysia",008. Al Quran Al Kareem TV (1080p)
 https://al-ekhbaria-prod-dub.shahid.net/out/v1/9885cab0a3ec4008b53bae57a27ca76b/index.m3u8
-#EXTINF:g-id="TV9.my" tvg-logo="https://raw.githubusercontent.com/kaizere23/iptv2/blob/main/logo/tv9my.png" group-title="Malaysia",009. TV9
+#EXTINF:g-id="TV9.my" tvg-logo="https://www.tvikim.my/images/Logo-tvikim-black.png" group-title="Malaysia",009. TV9
 https://tonton-live-switch-ssar.akamaized.net/stream-tv9/master.m3u8?bpkio_serviceid=6c0958d82a830a02ca0936d9cfab8311
 #EXTINF:g-id="Okey.my" tvg-logo="https://i.pinimg.com/originals/1c/5b/3e/1c5b3eb05c9e03b1d750e75750da012b.png" group-title="Malaysia",010. Okey RTM [Geo-blocked]
 https://d25tgymtnqzu8s.cloudfront.net/smil:okey/playlist.m3u8?id=3
@@ -27,7 +27,7 @@ https://edge-sg1.vediostream.com/abr/tvikim/playlist.m3u8
 https://d25tgymtnqzu8s.cloudfront.net/smil:berita/playlist.m3u8?id=5
 #EXTINF:g-id="DuniaSinema.my" tvg-logo="https://playtv.unifi.com.my:7047/CPS/images/universal/film/logo/201907/20190716/20190716074123890vav.png" group-title="Malaysia",013. Dunia Sinema (1080p)
 https://unifi-live05.secureswiftcontent.com/UnifiHD/live27-1080FHD.m3u8
-#EXTINF:g-id="RTM_Asean" tvg-logo="https://raw.githubusercontent.com/kaizere23/iptv2/blob/main/logo/RTM_Asean_(2024).png" group-title="Malaysia",015. RTM Asean
+#EXTINF:g-id="RTM_Asean" tvg-logo="https://raw.githubusercontent.com/kaizere23/iptv2/refs/heads/main/logo/RTM_Asean_(2024).png" group-title="Malaysia",015. RTM Asean
 https://d25tgymtnqzu8s.cloudfront.net/event/smil:event1/chunklist_b2596000_slENG.m3u8
 #EXTINF:g-id="ParlimenMalaysia.my" tvg-logo="https://rtmparlimen.rtm.gov.my/images/header.png" group-title="Malaysia",016. RTM Parlimen (Dewan Negara) [Geo-blocked]
 https://d25tgymtnqzu8s.cloudfront.net/smil:negara/playlist.m3u8?id=8
@@ -53,11 +53,11 @@ https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv3/playlist.m
 https://dminnvllta.cdn.mgmlcdn.com/dubaione/smil:dubaione.stream.smil/chunklist.m3u8
 #EXTINF:g-id="DubaiTV.ae",027. Dubai TV (1080p)
 https://dmieigthvllta.cdn.mgmlcdn.com/dubaitvht/smil:dubaitv.stream.smil/chunklist.m3u8
-#EXTINF:g-id="KBSDrama.kr" tvg-logo="https://raw.githubusercontent.com/kaizere23/iptv2/blob/main/logo/KBS_DRAMA.png" group-title="Korea",028. KBS Drama (480p)
+#EXTINF:g-id="KBSDrama.kr" tvg-logo="https://raw.githubusercontent.com/kaizere23/iptv2/refs/heads/main/logo/KBS_DRAMA.png" group-title="Korea",028. KBS Drama (480p)
 http://mytv.dothome.co.kr/ch/catv/2.php
-#EXTINF:g-id="HLDRDTV.kr" tvg-logo="https://raw.githubusercontent.com/kaizere23/iptv2/blob/main/logo/Seoul_Broadcasting_System_logo.svg.png" group-title="Korea",029. SBS CJB (540p) [Not 24/7]
+#EXTINF:g-id="HLDRDTV.kr" tvg-logo="https://raw.githubusercontent.com/kaizere23/iptv2/refs/heads/main/logo/Seoul_Broadcasting_System_logo.svg.png" group-title="Korea",029. SBS CJB (540p) [Not 24/7]
 http://1.222.207.80:1935/live/cjbtv/playlist.m3u8
-#EXTINF:-1 tvg-id="HLATDTV.kr" tvg-logo="https://raw.githubusercontent.com/kaizere23/iptv2/blob/main/logo/Munhwa_Broadcasting_Corporation.png" group-title="Korea",030. MBC Yeosu (여수 MBC) (1080p) [Not 24/7]
+#EXTINF:-1 tvg-id="HLATDTV.kr" tvg-logo="https://raw.githubusercontent.com/kaizere23/iptv2/refs/heads/main/logo/Munhwa_Broadcasting_Corporation.png" group-title="Korea",030. MBC Yeosu (여수 MBC) (1080p) [Not 24/7]
 https://5c3639aa99149.streamlock.net/live_TV/tv/playlist.m3u8
 #EXTINF:g-id="CGNTVJapan.jp",031. CGNTV Japan (1080p)
 https://d2p4mrcwl6ly4.cloudfront.net/out/v1/8d50f69fdbbf411a8d302743e4263716/CGNWebLiveJP.m3u8
@@ -73,7 +73,7 @@ https://shls-mbcplusdrama-prod-dub.shahid.net/out/v1/97ca0ce6fc6142f4b14c0a694af
 https://github.com/BellezaEmporium/IPTV_Exception/raw/master/channels/kr/natv.m3u8
 #EXTINF:g-id="NBS.kr",037. NBS Korea Agricultural Broadcasting (720p)
 https://media.joycorp.co.kr:4443/live/ngrp:live_all/playlist.m3u8
-#EXTINF:g-id="NHKWorldJapan.jp" tvg-logo="https://raw.githubusercontent.com/kaizere23/iptv2/blob/main/logo/NHK_World.png" group-title="News",038. NHK World Japan (1080p)
+#EXTINF:g-id="NHKWorldJapan.jp" tvg-logo="https://raw.githubusercontent.com/kaizere23/iptv2/refs/heads/main/logo/NHK_World.png" group-title="News",038. NHK World Japan (1080p)
 https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
 #EXTINF:g-id="NHKWorldPremium.jp",039. NHK World Premium (480p)
 https://cdn.skygo.mn/live/disk1/NHK_World_Premium/HLSv3-FTA/NHK_World_Premium.m3u8
@@ -119,9 +119,9 @@ https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8
 https://bloomberg.com/media-manifest/streams/asia.m3u8
 #EXTINF:g-id="EWTNAsiaPacific.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/EWTN_Lo.......,060. EWTN Asia-Pacific (720p) [Not 24/7]
 https://cdn3.wowza.com/1/QmVNUVhTNTZSS3Uz/YWQ0aHpi/hls/live/playlist.m3u8
-#EXTINF:g-id="AlJazeera" tvg-logo="raw.githubusercontent.com/kaizere23/iptv2/refs/heads/main/logo/aljazeera.png" group-title="News",061. Al Jazeera (English)
+#EXTINF:g-id="AlJazeera" tvg-logo="https://raw.githubusercontent.com/kaizere23/iptv2/refs/heads/main/logo/aljazeera.png" group-title="News",061. Al Jazeera (English)
 https://live-hls-v3-aje.getaj.net/AJE-V3/index.m3u8
-#EXTINF:g-id="DW_Channel" tvg-logo="https://raw.githubusercontent.com/kaizere23/iptv2/blob/main/logo/dw.png" group-title="News",062. DW Channel
+#EXTINF:g-id="DW_Channel" tvg-logo="https://raw.githubusercontent.com/kaizere23/iptv2/refs/heads/main/logo/dw.png" group-title="News",062. DW Channel
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 #EXTINF:5,063. AspireTV Life
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/6375236f8573640007802129/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c26ce92-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=75959358-d5ba-4c49-bbbb-0dfdc8e7f221
@@ -181,7 +181,7 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5b
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/6176ff3ba00900000763710f/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2966a4-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=783bd025-4cbc-40c4-a742-b70d428fd035
 #EXTINF:5,089. Paramount Movie Channel
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5cb0cae7a461406ffe3f5213/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a7819-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=8a4a0712-cb24-4d05-b429-1b98c1f73f74
-#EXTINF:5,090. Paramount+ Picks
+#EXTINF:g-id="Paramount+Picks" tvg-logo="https://raw.githubusercontent.com/kaizere23/iptv2/refs/heads/main/logo/paramount%20%2B.png" group-title="PlutoTV",090. Paramount+ Picks
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5ff8c708653d080007361b14/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a9f20-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=86df5336-6268-4928-9b7d-3af618ca807b
 #EXTINF:5,091. CSI
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5efbd29e4aa26700076c0d06/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c285530-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=6e46fc93-9eb8-4999-b20e-4600002dd255
