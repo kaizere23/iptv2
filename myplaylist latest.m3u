@@ -17,7 +17,7 @@ https://d25tgymtnqzu8s.cloudfront.net/smil:tv6/playlist.m3u8?id=6
 https://cdn09jtedge.indihometv.com/joss/133/crimeinvestigation/index.m3u8
 #EXTINF:g-id="AlQuranAlKareemTV.sa" tvg-logo="https://1.bp.blogspot.com/-G8AiREdNvYI/V4JSsE4HoZI/AAAAAAAAEBc/nN0nIrUiovcKjftgJqxvXgh3QM0P57kwgCLcB/s1600/al_quran_al_kareem_tv.png" group-title="Malaysia",008. Al Quran Al Kareem TV (1080p)
 https://al-ekhbaria-prod-dub.shahid.net/out/v1/9885cab0a3ec4008b53bae57a27ca76b/index.m3u8
-#EXTINF:g-id="TV9.my" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ab/TV9_Malaysia_Logo_2021.png" group-title="Malaysia",009. TV9
+#EXTINF:g-id="TV9.my" tvg-logo="https://seeklogo.com/images/T/tv9-malaysia-logo-552F86004F-seeklogo.com.png" group-title="Malaysia",009. TV9
 https://tonton-live-switch-ssar.akamaized.net/stream-tv9/master.m3u8?bpkio_serviceid=6c0958d82a830a02ca0936d9cfab8311
 #EXTINF:g-id="Okey.my" tvg-logo="https://i.pinimg.com/originals/1c/5b/3e/1c5b3eb05c9e03b1d750e75750da012b.png" group-title="Malaysia",010. Okey RTM [Geo-blocked]
 https://d25tgymtnqzu8s.cloudfront.net/smil:okey/playlist.m3u8?id=3
@@ -25,27 +25,27 @@ https://d25tgymtnqzu8s.cloudfront.net/smil:okey/playlist.m3u8?id=3
 https://edge-sg1.vediostream.com/abr/tvikim/playlist.m3u8
 #EXTINF:g-id="BeritaRTM.my" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/Logo_Berita_RTM.png" group-title="Malaysia",012. Berita RTM [Geo-blocked]
 https://d25tgymtnqzu8s.cloudfront.net/smil:berita/playlist.m3u8?id=5
-#EXTINF:g-id="DuniaSinema.my" tvg-logo="https://playtv.unifi.com.my:7047/CPS/images/universal/film/logo/.......,013. Dunia Sinema (1080p)
+#EXTINF:g-id="DuniaSinema.my" tvg-logo="https://playtv.unifi.com.my:7047/CPS/images/universal/film/logo/201907/20190716/20190716074123890vav.png" group-title="Malaysia",013. Dunia Sinema (1080p)
 https://unifi-live05.secureswiftcontent.com/UnifiHD/live27-1080FHD.m3u8
-#EXTINF:1,015. RTM Asean
+#EXTINF:g-id="RTM_Asean" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f5/RTM_Asean_%282024%29.svg" group-title="Malaysia",015. RTM Asean
 https://d25tgymtnqzu8s.cloudfront.net/event/smil:event1/chunklist_b2596000_slENG.m3u8
-#EXTINF:g-id="ParlimenMalaysia.my",016. RTM Parlimen (Dewan Negara) [Geo-blocked]
+#EXTINF:g-id="ParlimenMalaysia.my" tvg-logo="https://rtmparlimen.rtm.gov.my/images/header.png" group-title="Malaysia",016. RTM Parlimen (Dewan Negara) [Geo-blocked]
 https://d25tgymtnqzu8s.cloudfront.net/smil:negara/playlist.m3u8?id=8
-#EXTINF:g-id="SukanRTM.my",017. Sukan RTM [Geo-blocked]
+#EXTINF:g-id="SukanRTM.my" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/b2/Sukan_RTM_1_April.png" group-title="Malaysia",017. Sukan RTM [Geo-blocked]
 https://d25tgymtnqzu8s.cloudfront.net/smil:sukan/manifest.mpd
-#EXTINF:-1,018. SukeTV
+#EXTINF:g-id="SukeTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/eb/SUKE_TV_Logo.png" group-title="Malaysia",018. SukeTV
 https://live.mana2.my/SukeTv/index.m3u8?auth_key=1738071567-a44de96e25064bcfb4ed9e6911fa17d7-0-a1385512a48fa50a07f4badf9f1f2009&token=1738071567-a44de96e25064bcfb4ed9e6911fa17d7-0-a1385512a48fa50a07f4badf9f1f2009
-#EXTINF:-1,019. TVAH
+#EXTINF:g-id="TVAH" tvg-logo="https://tvalhijrah.com/wp-content/uploads/2023/04/cropped-TV_Alhijrah_logo-1-1231x1536.png" group-title="Malaysia",019. TVAH
 https://live.mana2.my/TvAlhijrah/index.m3u8?auth_key=1738055923-a56dedf199d7401da7912e1128e7cfc7-0-78eee3019d1eebbbde811130bce0c0a6&token=1738055923-a56dedf199d7401da7912e1128e7cfc7-0-78eee3019d1eebbbde811130bce0c0a6
-#EXTINF:1,020. TVS
+#EXTINF:g-id="TVS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/80/TVS_logo_%282024%29.png" group-title="Malaysia",020. TVS
 https://stream2.smg.my/live/tvsplus_360p878kbs/index.m3u8
-#EXTINF:-1,021. BBC Earth
+#EXTINF:g-id="BBC_Earth" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7e/BBC_Earth_2023.svg" group-title="Documentary",021. BBC Earth
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/656535fc2c46f30008870fae/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c26ce98-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=73fe2b3e-3885-4bd2-874c-cc5f2153e555
-#EXTINF:5,022. BBC Food
+#EXTINF:g-id="BBC_Food" tvg-logo="https://static.wikia.nocookie.net/bbc/images/a/aa/BBC_Food_%28Pluto_TV%29.png" group-title="Documentary",022. BBC Food
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5fb5844bf5514d0007945bda/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c26f5a0-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=c628f2e9-ff30-4bd0-9ff6-99fb1649f628
-#EXTINF:5,023. BBC Home & Garden
+#EXTINF:g-id="BBC_Home&Garden" tvg-logo="https://static.wikia.nocookie.net/bbc/images/a/af/BBC_Home.png" group-title="Documentary",023. BBC Home & Garden
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5fb5836fe745b600070fc743/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c26f5a1-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=844b6663-bad2-462b-9aef-d0f33d5dfaa0
-#EXTINF:3,024. BBC News
+#EXTINF:g-id="BBC_News" tvg-logo="https://images.seeklogo.com/logo-png/46/1/bbc-news-2022-logo-png_seeklogo-467172.png" group-title="News",024. BBC News
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65d92a8c8b24c80008e285c0/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c26f5a2-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=9f1a48db-9022-43d1-bb25-ba665285192f
 #EXTINF:g-id="IqraaArabic.sa",025. Iqraa Arabic (1080p) [Not 24/7]
 https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv3/playlist.m3u8
