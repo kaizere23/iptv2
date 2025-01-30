@@ -119,7 +119,7 @@ https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8
 https://bloomberg.com/media-manifest/streams/asia.m3u8
 #EXTINF:g-id="EWTNAsiaPacific.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/EWTN_Lo.......,060. EWTN Asia-Pacific (720p) [Not 24/7]
 https://cdn3.wowza.com/1/QmVNUVhTNTZSS3Uz/YWQ0aHpi/hls/live/playlist.m3u8
-#EXTINF:g-id="AlJazeera" tvg-logo="https://raw.githubusercontent.com/kaizere23/iptv2/blob/main/logo/aljazeera.png" group-title="News",061. Al Jazeera (English)
+#EXTINF:g-id="AlJazeera" tvg-logo="raw.githubusercontent.com/kaizere23/iptv2/refs/heads/main/logo/aljazeera.png" group-title="News",061. Al Jazeera (English)
 https://live-hls-v3-aje.getaj.net/AJE-V3/index.m3u8
 #EXTINF:g-id="DW_Channel" tvg-logo="https://raw.githubusercontent.com/kaizere23/iptv2/blob/main/logo/dw.png" group-title="News",062. DW Channel
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
