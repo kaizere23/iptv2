@@ -26,7 +26,7 @@ http://fm1077.serv00.net/Smart.php?id=TVN
 #EXTINF:g-id="AlQuranAlKareemTV.sa" tvg-logo="https://1.bp.blogspot.com/-G8AiREdNvYI/V4JSsE4HoZI/AAAAAAAAEBc/nN0nIrUiovcKjftgJqxvXgh3QM0P57kwgCLcB/s1600/al_quran_al_kareem_tv.png" group-title="Malaysia",008. Al Quran Al Kareem TV (1080p)
 https://al-ekhbaria-prod-dub.shahid.net/out/v1/9885cab0a3ec4008b53bae57a27ca76b/index.m3u8
 
-#EXTINF:g-id="TV9.my" tvg-logo="https://images.seeklogo.com/logo-png/43/1/tv9-logo-png_seeklogo-436717.png" group-title="Malaysia",009. TV9
+#EXTINF:g-id="TV9.my" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/TV9_Malaysia_Logo_2021.png/476px-TV9_Malaysia_Logo_2021.png" group-title="Malaysia",009. TV9
 https://tonton-live-switch-ssar.akamaized.net/stream-tv9/master.m3u8?bpkio_serviceid=6c0958d82a830a02ca0936d9cfab8311
 
 #EXTINF:g-id="Okey.my" tvg-logo="https://i.pinimg.com/originals/1c/5b/3e/1c5b3eb05c9e03b1d750e75750da012b.png" group-title="Malaysia",010. Okey RTM [Geo-blocked]
@@ -53,19 +53,19 @@ https://d25tgymtnqzu8s.cloudfront.net/smil:negara/playlist.m3u8?id=8
 #EXTINF:g-id="SukanRTM.my" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/b2/Sukan_RTM_1_April.png" group-title="Malaysia",017. Sukan RTM [Geo-blocked]
 https://d25tgymtnqzu8s.cloudfront.net/smil:sukan/manifest.mpd
 
-#EXTINF:g-id="ASTRO RIA" tvg-logo="_" group-title="Astro",018. ASTRO RIA
+#EXTINF:g-id="ASTRO RIA" tvg-logo="https://www.astrobroadband.com.my/wp-content/uploads/2014/11/astro-channel-104-Astro-Ria.png" group-title="Astro",018. ASTRO RIA
 http://fm1077.serv00.net/Smart.php?id=Citra
 
-#EXTINF:g-id="ASTRO PRIMA" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/3_144.png" group-title="Astro",018. ASTRO PRIMA
+#EXTINF:g-id="ASTRO PRIMA" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/3_144.png" group-title="Astro",019. ASTRO PRIMA
 http://fm1077.serv00.net/Smart.php?id=Prima-0
 
-#EXTINF:g-id="ASTRO OASIS" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/70_144.png" group-title="Astro",019. ASTRO OASIS
+#EXTINF:g-id="ASTRO OASIS" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/70_144.png" group-title="Astro",020. ASTRO OASIS
 http://fm1077.serv00.net/Smart.php?id=Oasis
 
-#EXTINF:g-id="ASTRO Warna" tvg-logo="https://www.pngkit.com/png/full/306-3060086_astro-warna-2017-logo-astro-warna.png" group-title="Astro",020. ASTRO WARNA
+#EXTINF:g-id="ASTRO Warna" tvg-logo="https://www.pngkit.com/png/full/306-3060086_astro-warna-2017-logo-astro-warna.png" group-title="Astro",021. ASTRO WARNA
 http://fm1077.serv00.net/Smart.php?id=Warna-O
 
-#EXTINF:g-id="SCTV" tvg-logo="_" group-title="Astro",020. SCTV
+#EXTINF:g-id="SCTV" tvg-logo="https://4.bp.blogspot.com/-eoyEFtMw2No/W-6-CVddX_I/AAAAAAAAE_0/S1SEJSBobT4i1YTOVc1nT3X9CoVPBi83gCLcBGAs/s1600/SCTV.png" group-title="Astro",022. SCTV
 http://fm1077.serv00.net/Smart.php?id=SCTV
 
 #EXTINF:g-id="TVAH" tvg-logo="https://tvalhijrah.com/wp-content/uploads/2023/04/cropped-TV_Alhijrah_logo-1-1231x1536.png" group-title="Malaysia",023. TVAH
