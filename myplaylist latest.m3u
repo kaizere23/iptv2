@@ -62,7 +62,7 @@ http://fm1077.serv00.net/Smart.php?id=Prima-0
 #EXTINF:g-id="ASTRO OASIS" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/70_144.png" group-title="Astro",020. ASTRO OASIS
 http://fm1077.serv00.net/Smart.php?id=Oasis
 
-#EXTINF:g-id="ASTRO Warna" tvg-logo="https://www.pngkit.com/png/full/306-3060086_astro-warna-2017-logo-astro-warna.png" group-title="Astro",021. ASTRO WARNA
+#EXTINF:g-id="ASTRO Warna" tvg-logo="https://iptv-pro.github.io/logo/Astro%20Warna.png" group-title="Astro",021. ASTRO WARNA
 http://fm1077.serv00.net/Smart.php?id=Warna-O
 
 #EXTINF:g-id="SCTV" tvg-logo="https://4.bp.blogspot.com/-eoyEFtMw2No/W-6-CVddX_I/AAAAAAAAE_0/S1SEJSBobT4i1YTOVc1nT3X9CoVPBi83gCLcBGAs/s1600/SCTV.png" group-title="Astro",022. SCTV
@@ -287,17 +287,17 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d
 #EXTINF:5,095. Ghost Hunters
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/64e561a4354251000823a0e0/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c28f177-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=15d446c5-1e1e-4ecb-8d96-6d0b45104d20
 
-#EXTINF:g-id="History" tvg-logo="_" group-title="Astro",96. History (1080p)
+#EXTINF:g-id="History" tvg-logo="https://iptv-pro.github.io/logo/history1.png" group-title="Astro",96. History (1080p)
 http://170.254.18.106/HISTORY/index.m3u8
 
-#EXTINF:g-id="Discovery Channel" tvg-logo="_" group-title="Astro",97. Discovery Channel
+#EXTINF:g-id="Discovery Channel" tvg-logo="https://iptv-pro.github.io/logo/Discovery%20Channel.png" group-title="Astro",97. Discovery Channel
 http://45.159.74.14:80/DiscoveryChannel/index.m3u8
 
 #EXTINF:g-id="NatGeo" tvg-logo="_" group-title="Astro",98. National Geogrpahic (1080p)
 http://fm1077.serv00.net/Smart.php?id=Natgeo
 
-#EXTINF:g-id="NatGeoWild" tvg-logo="_" group-title="Astro",99. NatGeoWild(1080p)
-http://fm1077.serv00.net/Smart.php?id=Natgeowild
+#EXTINF:g-id="NatGeoWild" tvg-logo="https://iptv-pro.github.io/logo/Nat%20Geo%20Wild.png" group-title="Astro",99. NatGeoWild(1080p)
+http://38b891c9.rossteleccom.net/iptv/SQNLRPBE7FFE8V/133/index.m3u8
 
 #EXTINF:5,100. Kartoon Channel!
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60fb040d4795a6000762fe8f/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2966a5-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=41487abb-ffc4-4eb8-b9af-df4b55bbeeae
@@ -338,5 +338,14 @@ http://extraott.com:80/live/6772191932/1654508883/254741.m3u8
 #EXTINF:g-id="ASTRO ARENA HD" tvg-logo="https://cdn-my.mpl.mobilelegends.com/astro-arena-yCgN4292.png" group-title="Astro",112. ASTRO ARENA HD (1080p)
 http://extraott.com:80/live/6772191932/1654508883/191853.m3u8
 
-#EXTINF:g-id="ASTRO ARENA 2" tvg-logo="https://cdn-my.mpl.mobilelegends.com/astro-arena-yCgN4292.png" group-title="Astro",113. ASTRO ARENA 2 (1080p)
+#EXTINF:g-id="ASTRO ARENA 2" tvg-logo="https://iptv-pro.github.io/logo/Astro%20Arena%202.png" group-title="Astro",113. ASTRO ARENA 2 (1080p)
 http://fm1077.serv00.net/Smart.php?id=Arena2
+
+#EXTINF:g-id="sky sports" tvg-logo="https://iptv-pro.github.io/logo/skysport.png" group-title="Astro",114. SKY_SPORTS (1080p)
+http://38b891c9.rossteleccom.net/iptv/SQNLRPBE7FFE8V/7335/index.m3u8
+
+#EXTINF:g-id="SuperSport" tvg-logo="https://iptv-pro.github.io/logo/Astro%20SuperSport.png" group-title="Astro",115. SUPERSPORT (1080p)
+http://extraott.com:80/live/6772191932/1654508883/159892.m3u8
+
+#EXTINF:g-id="SuperSport2" tvg-logo="https://iptv-pro.github.io/logo/Astro%20SuperSport%202.png" group-title="Astro",116. SUPERSPORT2 (1080p)
+http://extraott.com:80/live/6772191932/1654508883/153952.m3u8
