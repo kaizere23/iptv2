@@ -105,7 +105,7 @@ https://5c3639aa99149.streamlock.net/live_TV/tv/playlist.m3u8
 https://d2p4mrcwl6ly4.cloudfront.net/out/v1/8d50f69fdbbf411a8d302743e4263716/CGNWebLiveJP.m3u8
 
 #EXTINF:g-id="KBSWorld.kr",035. KBS World (720p)
-https://kbsworld-ott.akamaized.net/hls/live/2002341/kbsworld/master.m3u8
+https://ctrl.laotv.la/live/KBS/index.m3u8
 
 #EXTINF:g-id="KTV.kr",036. Korea TV (1080p)
 https://hlive.ktv.go.kr/live/klive_h.stream/playlist.m3u8
