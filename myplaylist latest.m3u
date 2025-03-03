@@ -180,7 +180,7 @@ https://video.detik.com/trans7/smil:trans7.smil/index.m3u8
 https://edge.medcom.id/live-edge/smil:magna.smil/playlist.m3u8
 
 #EXTINF:g-id="RCTI.id",060.RCTI (720p) [Not 24/7]
-http://fm1077.serv00.net/Smart.php?id=Rcti
+http://198.16.100.186:8278/Rcti/playlist.m3u8?tid=MC2C8104265481042654&ct=19249&tsum=a03f74405124dc54a0e467a91f2afe8d
 
 #EXTINF:g-id="BBCNewsAsiaPacific.uk" tvg-logo="https://i.imgur.com/vSz2WEp.png" group-title="News",061. BBC News Asia Pacific (720p)
 https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8
