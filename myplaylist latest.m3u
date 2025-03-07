@@ -54,10 +54,10 @@ https://d25tgymtnqzu8s.cloudfront.net/smil:negara/playlist.m3u8?id=8
 https://d25tgymtnqzu8s.cloudfront.net/smil:sukan/manifest.mpd
 
 #EXTINF:g-id="ASTRO RIA" tvg-logo="https://www.astrobroadband.com.my/wp-content/uploads/2014/11/astro-channel-104-Astro-Ria.png" group-title="Astro",018. ASTRO RIA
-http://fm1077.serv00.net/Smart.php?id=Citra
+https://jandatv.online/memfs/f871858b-b6ea-47e3-a644-b5988deaa68f.m3u8
 
 #EXTINF:g-id="ASTRO PRIMA" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/3_144.png" group-title="Astro",019. ASTRO PRIMA
-http://fm1077.serv00.net/Smart.php?id=Prima-0
+https://jandatv.online/memfs/4b103398-f115-45ca-b90b-40850352dd0f.m3u8
 
 #EXTINF:g-id="ASTRO OASIS" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/70_144.png" group-title="Astro",020. ASTRO OASIS
 http://50.7.234.10:8278/Oasis/playlist.m3u8?tid=MABA2020629120206291&ct=19249&tsum=46be05252007b1efaae28ae3ab4cc7bb
