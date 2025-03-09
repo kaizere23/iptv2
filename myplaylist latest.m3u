@@ -123,7 +123,7 @@ https://github.com/BellezaEmporium/IPTV_Exception/raw/master/channels/kr/natv.m3
 https://media.joycorp.co.kr:4443/live/ngrp:live_all/playlist.m3u8
 
 #EXTINF:g-id="NHKWorldJapan.jp" tvg-logo="https://raw.githubusercontent.com/kaizere23/iptv2/refs/heads/main/logo/NHK_World.png" group-title="News",041. NHK World Japan (1080p)
-https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+https://master.nhkworld.jp/nhkworld-tv/playlist/live.m3u8
 
 #EXTINF:g-id="NHKWorldPremium.jp",042. NHK World Premium (480p)
 https://cdn.skygo.mn/live/disk1/NHK_World_Premium/HLSv3-FTA/NHK_World_Premium.m3u8
