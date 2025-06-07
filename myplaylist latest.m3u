@@ -24,7 +24,7 @@ https://d25tgymtnqzu8s.cloudfront.net/smil:tv6/playlist.m3u8?id=6
 http://198.16.100.186:8278/TVN/playlist.m3u8?tid=ME8E2207086222070862&ct=19249&tsum=b7f602e68174a03e917c7b354788bce9
 
 #EXTINF:g-id="AlQuranAlKareemTV.sa" tvg-logo="https://1.bp.blogspot.com/-G8AiREdNvYI/V4JSsE4HoZI/AAAAAAAAEBc/nN0nIrUiovcKjftgJqxvXgh3QM0P57kwgCLcB/s1600/al_quran_al_kareem_tv.png" group-title="Malaysia",008. Al Quran Al Kareem TV (1080p)
-https://al-ekhbaria-prod-dub.shahid.net/out/v1/9885cab0a3ec4008b53bae57a27ca76b/index.m3u8
+http://m.live.net.sa:1935/live/quran/playlist.m3u8
 
 #EXTINF:g-id="TV9.my" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/TV9_Malaysia_Logo_2021.png/476px-TV9_Malaysia_Logo_2021.png" group-title="Malaysia",009. TV9
 https://tonton-live-switch-ssar.akamaized.net/stream-tv9/master.m3u8?bpkio_serviceid=6c0958d82a830a02ca0936d9cfab8311
@@ -53,30 +53,33 @@ https://d25tgymtnqzu8s.cloudfront.net/smil:negara/playlist.m3u8?id=8
 #EXTINF:g-id="SukanRTM.my" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/b2/Sukan_RTM_1_April.png" group-title="Malaysia",017. Sukan RTM [Geo-blocked]
 https://d25tgymtnqzu8s.cloudfront.net/smil:sukan/manifest.mpd
 
-#EXTINF:g-id="ASTRO RIA" tvg-logo="https://www.astrobroadband.com.my/wp-content/uploads/2014/11/astro-channel-104-Astro-Ria.png" group-title="Astro",018. ASTRO RIA
-https://jandatv.online/memfs/8a3908c2-0c37-4a86-9c96-ea679f36691c.m3u8
-
-#EXTINF:g-id="ASTRO PRIMA" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/3_144.png" group-title="Astro",019. ASTRO PRIMA
-https://jandatv.online/memfs/636daabb-f386-4f7f-b00e-1f8896c79d50.m3u8
-
-#EXTINF:g-id="ASTRO OASIS" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/70_144.png" group-title="Astro",020. ASTRO OASIS
+#EXTINF:g-id="ASTRO OASIS" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/70_144.png" group-title="Astro",018. ASTRO OASIS
 http://50.7.234.10:8278/Oasis/playlist.m3u8?tid=MABA2020629120206291&ct=19249&tsum=46be05252007b1efaae28ae3ab4cc7bb
 
-#EXTINF:g-id="ASTRO Warna" tvg-logo="https://iptv-pro.github.io/logo/Astro%20Warna.png" group-title="Astro",021. ASTRO WARNA
-http://fm1077.serv00.net/Smart.php?id=Warna-O
-
-#EXTINF:g-id="ASTRO Ceria" tvg-logo="https://iptv-pro.github.io/logo/Astro%20Ceria.png" group-title="Astro",022. ASTRO Ceria
-http://fm1077.serv00.net/Smart.php?id=Ceria
-
-#EXTINF:g-id="TLC" tvg-logo="https://iptv-pro.github.io/logo/TLC.png" group-title="Astro",023. TLC
+#EXTINF:g-id="TLC" tvg-logo="https://iptv-pro.github.io/logo/TLC.png" group-title="Astro",019. TLC
 http://50.7.234.10:8278/tlc_twn/playlist.m3u8?tid=MA0A5904082259040822&ct=19226&tsum=8fa7deead1d4b260825af15bc7378132
 
-#EXTINF:g-id="SCTV" tvg-logo="https://4.bp.blogspot.com/-eoyEFtMw2No/W-6-CVddX_I/AAAAAAAAE_0/S1SEJSBobT4i1YTOVc1nT3X9CoVPBi83gCLcBGAs/s1600/SCTV.png" group-title="Astro",024. SCTV
-http://fm1077.serv00.net/Smart.php?id=SCTV
+##################################################################################
 
-#EXTINF:g-id="TVAH" tvg-logo="https://tvalhijrah.com/wp-content/uploads/2023/04/cropped-TV_Alhijrah_logo-1-1231x1536.png" group-title="Malaysia",025. TVAH
-http://fm1077.serv00.net/Smart.php?id=Alhijrah
+#EXTINF:5,020. Nick Jr. Pluto TV
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5ca6748a37b88b269472dad9/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a5106-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=d95e31ff-c65d-438c-9466-ddbbd097b4cf
 
+#EXTINF:5,021. Nickelodeon Pluto TV
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5ca673e0d0bd6c2689c94ce3/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a5108-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=5730720c-9e54-41d9-b73d-eab8fdac7291
+
+#EXTINF:5,022. Baby Shark TV
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60faffc3fbbc120007fc4376/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c26ce93-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=1f776e00-4160-4945-86c6-3cb0fa0bd795
+
+#EXTINF:5,023. Crunchyroll
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65652f7fc0fc88000883537a/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c282e28-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=95ddabd5-09c0-4680-9412-eea43c47a4da
+
+#EXTINF:g-id="Disney" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/78/Disney_Channel_Germany_Logo_2014.png" group-title="America",024. Disney Channel
+http://fl5.moveonjoy.com/DISNEY/index.m3u8
+
+#EXTINF:g-id="DisneyXD.my" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c7/Logo_Disney_XD.png" group-title="America",025. Disney XD
+http://fl3.moveonjoy.com/DISNEY_XD/index.m3u8
+
+##################################################################################
 #EXTINF:g-id="TVS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/80/TVS_logo_%282024%29.png" group-title="Malaysia",026. TVS
 https://stream2.smg.my/live/tvsplus_360p878kbs/index.m3u8
 
@@ -104,7 +107,7 @@ https://5c3639aa99149.streamlock.net/live_TV/tv/playlist.m3u8
 #EXTINF:g-id="CGNTVJapan.jp",034. CGNTV Japan (1080p)
 https://d2p4mrcwl6ly4.cloudfront.net/out/v1/8d50f69fdbbf411a8d302743e4263716/CGNWebLiveJP.m3u8
 
-#EXTINF:g-id="KBSWorld.kr",035. KBS World (720p)
+#EXTINF:g-id="KBSWorld.kr" tvg-logo="https://i.imgur.com/kk2MdNC.png",035. KBS World (720p)
 http://mytv.dothome.co.kr/ch/catv/7.php
 
 #EXTINF:g-id="KTV.kr",036. Korea TV (1080p)
@@ -144,7 +147,7 @@ https://vo-live.cdb.cdn.orange.com/Content/Channel/EmiratesChannel/HLS/index.m3u
 https://cdn09jtedge.indihometv.com/joss/134/cnbcasia/index.m3u8
 
 #EXTINF:g-id="ZooMoo.sg",048. ZooMoo Asia (1080p)
-https://cdn4.skygo.mn/live/disk1/Zoomoo/HLSv3-FTA/Zoomoo.m3u8
+https://zoomoo-samsungau.amagi.tv/playlist.m3u8
 
 #EXTINF:g-id="SBC.sa",049. SBC (1080p) [Not 24/7]
 https://sbc-prod-dub-ak.akamaized.net/out/v1/2eb1ad0f29984a339bc0fce4ce94dcbb/index.m3u8
@@ -183,7 +186,7 @@ https://edge.medcom.id/live-edge/smil:magna.smil/playlist.m3u8
 http://198.16.100.186:8278/Rcti/playlist.m3u8?tid=MC2C8104265481042654&ct=19249&tsum=a03f74405124dc54a0e467a91f2afe8d
 
 #EXTINF:g-id="BBCNewsAsiaPacific.uk" tvg-logo="https://i.imgur.com/vSz2WEp.png" group-title="News",061. BBC News Asia Pacific (720p)
-https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8
+https://vs-cmaf-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/iptv_hd_abr_v1.mpd
 
 #EXTINF:g-id="BloombergTVAsia.hk" tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="Business",062. Bloomberg TV Asia (720p)
 https://bloomberg.com/media-manifest/streams/asia.m3u8
@@ -308,56 +311,12 @@ http://38b891c9.rossteleccom.net/iptv/SQNLRPBE7FFE8V/133/index.m3u8
 #EXTINF:5,101. Kartoon Channel!
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60fb040d4795a6000762fe8f/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2966a5-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=41487abb-ffc4-4eb8-b9af-df4b55bbeeae
 
-#EXTINF:5,102. Nick Jr. Pluto TV
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5ca6748a37b88b269472dad9/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a5106-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=d95e31ff-c65d-438c-9466-ddbbd097b4cf
-
-#EXTINF:5,103. Nickelodeon Pluto TV
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5ca673e0d0bd6c2689c94ce3/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a5108-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=5730720c-9e54-41d9-b73d-eab8fdac7291
-
-#EXTINF:5,104. Baby Shark TV
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60faffc3fbbc120007fc4376/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c26ce93-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=1f776e00-4160-4945-86c6-3cb0fa0bd795
-
-#EXTINF:5,105. Crunchyroll
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65652f7fc0fc88000883537a/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c282e28-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=95ddabd5-09c0-4680-9412-eea43c47a4da
-
-#EXTINF:g-id="Disney" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/78/Disney_Channel_Germany_Logo_2014.png" group-title="America",106. Disney Channel
-http://fl5.moveonjoy.com/DISNEY/index.m3u8
-
-#EXTINF:g-id="DisneyXD.my" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c7/Logo_Disney_XD.png" group-title="America",107. Disney XD
-http://fl3.moveonjoy.com/DISNEY_XD/index.m3u8
-
-#EXTINF:5,108. Formula 1 Channel
+#EXTINF:g-id="F1",102. Formula 1 Channel
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65c69ee3d77d450008c80438/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c28f172-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=922e06a8-1ba6-4236-9931-06d471735996
 
-#EXTINF:5,109. Fox Sports
+#EXTINF:g-id="FoxSports",103. Fox Sports
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5a74b8e1e22a61737979c6bf/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c28f173-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=46a3b8ff-5a4a-4952-bb4d-9461224acd54
 
-#EXTINF:g-id="BeIN Sport HD" tvg-logo="https://pluspng.com/img-png/bein-sports-logo-png-bein-sports-logo-img-vector-1000x1000.png" group-title="Sports",110. BeIN Sport HD (1080p)
-http://extraott.com:80/live/6772191932/1654508883/181397.m3u8
+#EXTINF:g-id="ManUtd" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1834.png" group-title="Sports",104. Manchester_United
+https://bcovlive-a.akamaihd.net/r2d2c4ca5bf57456fb1d16255c1a535c8/eu-west-1/6058004203001/playlist.m3u8
 
-#EXTINF:g-id="BeIN Sport 1" tvg-logo="https://pluspng.com/img-png/bein-sports-logo-png-bein-sports-logo-img-vector-1000x1000.png" group-title="Sports",111. BeIN Sport 1 (1080p)
-http://extraott.com:80/live/6772191932/1654508883/191881.m3u8
-
-#EXTINF:g-id="BeIN Sport XTRA" tvg-logo="https://image-resizer-cloud-cdn.api.cms.amdvids.com/image/FB13661E-480C-4755-B4D4-C4C6D8C393FA/3-1x1.png/900" group-title="Sports",112. BeIN Sport XTRA (1080p)
-http://extraott.com:80/live/6772191932/1654508883/254741.m3u8
-
-#EXTINF:g-id="ASTRO ARENA HD" tvg-logo="https://cdn-my.mpl.mobilelegends.com/astro-arena-yCgN4292.png" group-title="Astro",113. ASTRO ARENA HD (1080p)
-http://extraott.com:80/live/6772191932/1654508883/191853.m3u8
-
-#EXTINF:g-id="ASTRO ARENA 2" tvg-logo="https://iptv-pro.github.io/logo/Astro%20Arena%202.png" group-title="Astro",114. ASTRO ARENA 2 (1080p)
-http://fm1077.serv00.net/Smart.php?id=Arena2
-
-#EXTINF:g-id="SuperSport" tvg-logo="https://iptv-pro.github.io/logo/Astro%20SuperSport.png" group-title="Astro",115. SUPERSPORT (1080p)
-http://extraott.com:80/live/6772191932/1654508883/159892.m3u8
-
-#EXTINF:g-id="ASTROBOLA1" tvg-logo="-" group-title="Astro",116. ASTRO BOLA 1 (1080p)
-https://raw.githubusercontent.com/ayahdee/iptv.xtro/refs/heads/main/B%E2%97%8B%C2%A3%401.m3u8
-
-#EXTINF:g-id="ASTROBOLA2" tvg-logo="-" group-title="Astro",117. ASTRO BOLA 2 (1080p)
-https://raw.githubusercontent.com/ayahdee/iptv.xtro/refs/heads/main/B%E2%97%8B%C2%A3%402.m3u8
-
-#EXTINF:g-id="ASTROFOOTBALL" tvg-logo="-" group-title="Astro",118. ASTRO FOOTBALL (1080p)
-https://raw.githubusercontent.com/ayahdee/iptv.xtro/refs/heads/main/F%E2%97%8B%E2%97%8BtB%40%7C%7C.m3u8
-
-#EXTINF:g-id="ASTROGRANDSTAND" tvg-logo="-" group-title="Astro",119. ASTRO GRANDSTAND (1080p)
-https://raw.githubusercontent.com/ayahdee/iptv.xtro/refs/heads/main/G%C2%AE%EF%B8%8F%E2%88%86%CF%80d%24t%E2%88%86%CF%80d.m3u8
