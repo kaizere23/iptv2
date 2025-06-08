@@ -32,81 +32,81 @@ https://mifntechnology.github.io/siaranMy/channels/Tv9/index.m3u8
 #EXTINF:g-id="Okey.my" tvg-logo="https://i.pinimg.com/originals/1c/5b/3e/1c5b3eb05c9e03b1d750e75750da012b.png" group-title="Malaysia",010. Okey RTM [Geo-blocked]
 https://d25tgymtnqzu8s.cloudfront.net/smil:okey/playlist.m3u8?id=3
 
-#EXTINF:g-id="TVIKIM.my" tvg-logo="https://www.tvikim.my/images/Logo-tvikim-black.png" group-title="Malaysia",011. TVIKIM
+#EXTINF:tvg-id="TVIKIM.my" tvg-logo="https://www.tvikim.my/images/Logo-tvikim-black.png" group-title="Malaysia",011. TVIKIM
 https://edge-sg1.vediostream.com/abr/tvikim/playlist.m3u8
 
-#EXTINF:g-id="BeritaRTM.my" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/Logo_Berita_RTM.png" group-title="Malaysia",012. Berita RTM [Geo-blocked]
+#EXTINF:tvg-id="BeritaRTM.my" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/Logo_Berita_RTM.png" group-title="Malaysia",012. Berita RTM [Geo-blocked]
 https://d25tgymtnqzu8s.cloudfront.net/smil:berita/playlist.m3u8?id=5
 
-#EXTINF:g-id="DuniaSinema.my" tvg-logo="https://playtv.unifi.com.my:7047/CPS/images/universal/film/logo/201907/20190716/20190716074123890vav.png" group-title="Malaysia",013. Dunia Sinema (1080p)
+#EXTINF:tvg-id="DuniaSinema.my" tvg-logo="https://playtv.unifi.com.my:7047/CPS/images/universal/film/logo/201907/20190716/20190716074123890vav.png" group-title="Malaysia",013. Dunia Sinema (1080p)
 https://unifi-live05.secureswiftcontent.com/UnifiHD/live27-1080FHD.m3u8
 
-#EXTINF:g-id="AXN" tvg-logo="https://pluspng.com/img-png/axn-logo-vector-png-file-axn-hd-logo-2015-png-1412.png" group-title="ASTRO",014. AXN
+#EXTINF:tvg-id="AXN" tvg-logo="https://pluspng.com/img-png/axn-logo-vector-png-file-axn-hd-logo-2015-png-1412.png" group-title="ASTRO",014. AXN
 http://198.16.100.186:8278/Axn/playlist.m3u8?tid=MF5F8488555684885556&ct=19254&tsum=b053d03f18972fd57458dea9ae82c0aa
 
-#EXTINF:g-id="RTM_Asean" tvg-logo="https://raw.githubusercontent.com/kaizere23/iptv2/refs/heads/main/logo/RTM_Asean_(2024).png" group-title="Malaysia",015. RTM Asean
+#EXTINF:tvg-id="RTM_Asean" tvg-logo="https://raw.githubusercontent.com/kaizere23/iptv2/refs/heads/main/logo/RTM_Asean_(2024).png" group-title="Malaysia",015. RTM Asean
 https://d25tgymtnqzu8s.cloudfront.net/event/smil:event1/chunklist_b2596000_slENG.m3u8
 
-#EXTINF:-1 group-title="siaranMy" tvg-id="TVAlhijrah" tvg-name="TvAlhijrah" tvg-logo="https://github.com/MIFNtechnology/siaranMy/raw/main/logo/TvAlhijrah.png", Tv Alhijrah
+#EXTINF:-1 group-title="siaranMy" tvg-id="TVAlhijrah" tvg-name="TvAlhijrah" tvg-logo="https://github.com/MIFNtechnology/siaranMy/raw/main/logo/TvAlhijrah.png",016. Tv Alhijrah
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key={"4745ac4464797aa9d5ed653c1e987917": "ffe2dd898757fb14c156b3e014058ecc"}
 https://unifi-live01.secureswiftcontent.com/UnifiHD/live07.mpd
 
-#EXTINF:g-id="SukanRTM.my" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/b2/Sukan_RTM_1_April.png" group-title="Malaysia",017. Sukan RTM [Geo-blocked]
+#EXTINF:tvg-id="SukanRTM.my" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/b2/Sukan_RTM_1_April.png" group-title="Malaysia",017. Sukan RTM [Geo-blocked]
 https://d25tgymtnqzu8s.cloudfront.net/smil:sukan/manifest.mpd
 
-#EXTINF:g-id="ASTRO OASIS" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/70_144.png" group-title="Astro",018. ASTRO OASIS
+#EXTINF:tvg-id="ASTRO OASIS" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/70_144.png" group-title="Astro",018. ASTRO OASIS
 http://50.7.234.10:8278/Oasis/playlist.m3u8?tid=MABA2020629120206291&ct=19249&tsum=46be05252007b1efaae28ae3ab4cc7bb
 
-#EXTINF:g-id="TLC" tvg-logo="https://iptv-pro.github.io/logo/TLC.png" group-title="Astro",019. TLC
+#EXTINF:tvg-id="TLC" tvg-logo="https://iptv-pro.github.io/logo/TLC.png" group-title="Astro",019. TLC
 http://50.7.234.10:8278/tlc_twn/playlist.m3u8?tid=MA0A5904082259040822&ct=19226&tsum=8fa7deead1d4b260825af15bc7378132
 
 ##################################################################################
 
-#EXTINF:5,020. Nick Jr. Pluto TV
+#EXTINF:5 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Nick_Jr._logo_2009.svg/512px-Nick_Jr._logo_2009.svg.png" ,020. Nick Jr. Pluto TV
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5ca6748a37b88b269472dad9/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a5106-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=d95e31ff-c65d-438c-9466-ddbbd097b4cf
 
-#EXTINF:5,021. Nickelodeon Pluto TV
+#EXTINF:5 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Nickelodeon_2009_logo.svg/512px-Nickelodeon_2009_logo.svg.png",021. Nickelodeon Pluto TV
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5ca673e0d0bd6c2689c94ce3/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a5108-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=5730720c-9e54-41d9-b73d-eab8fdac7291
 
-#EXTINF:5,022. Baby Shark TV
+#EXTINF:5 tvg-logo="https://i.imgur.com/SbBKr8L.png",022. Baby Shark TV
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60faffc3fbbc120007fc4376/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c26ce93-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=1f776e00-4160-4945-86c6-3cb0fa0bd795
 
-#EXTINF:5,023. Crunchyroll
+#EXTINF:5 tvg-logo="https://www.logo.wine/a/logo/Crunchyroll/Crunchyroll-Logo.wine.svg",023. Crunchyroll
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65652f7fc0fc88000883537a/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c282e28-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=95ddabd5-09c0-4680-9412-eea43c47a4da
 
-#EXTINF:g-id="Disney" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/78/Disney_Channel_Germany_Logo_2014.png" group-title="America",024. Disney Channel
+#EXTINF:tvg-id="Disney" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/78/Disney_Channel_Germany_Logo_2014.png" group-title="America",024. Disney Channel
 http://fl5.moveonjoy.com/DISNEY/index.m3u8
 
-#EXTINF:g-id="DisneyXD.my" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c7/Logo_Disney_XD.png" group-title="America",025. Disney XD
+#EXTINF:tvg-id="DisneyXD.my" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c7/Logo_Disney_XD.png" group-title="America",025. Disney XD
 http://fl3.moveonjoy.com/DISNEY_XD/index.m3u8
 
 ##################################################################################
-#EXTINF:g-id="TVS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/80/TVS_logo_%282024%29.png" group-title="Malaysia",026. TVS
+#EXTINF:tvg-id="TVS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/80/TVS_logo_%282024%29.png" group-title="Malaysia",026. TVS
 https://stream2.smg.my/live/tvsplus_360p878kbs/index.m3u8
 
-#EXTINF:g-id="BBC_Earth" tvg-logo="https://raw.githubusercontent.com/kaizere23/iptv2/blob/main/logo/BBC_Earth_2023.png" group-title="Documentary",027. BBC Earth
+#EXTINF:tvg-id="BBC_Earth" tvg-logo="https://raw.githubusercontent.com/kaizere23/iptv2/blob/main/logo/BBC_Earth_2023.png" group-title="Documentary",027. BBC Earth
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/656535fc2c46f30008870fae/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c26ce98-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=73fe2b3e-3885-4bd2-874c-cc5f2153e555
 
-#EXTINF:g-id="BBC_Food" tvg-logo="https://static.wikia.nocookie.net/bbc/images/a/aa/BBC_Food_%28Pluto_TV%29.png" group-title="Documentary",028. BBC Food
+#EXTINF:tvg-id="BBC_Food" tvg-logo="https://static.wikia.nocookie.net/bbc/images/a/aa/BBC_Food_%28Pluto_TV%29.png" group-title="Documentary",028. BBC Food
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5fb5844bf5514d0007945bda/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c26f5a0-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=c628f2e9-ff30-4bd0-9ff6-99fb1649f628
 
-#EXTINF:g-id="BBC_Home&Garden" tvg-logo="https://static.wikia.nocookie.net/bbc/images/a/af/BBC_Home.png" group-title="Documentary",029. BBC Home & Garden
+#EXTINF:tvg-id="BBC_Home&Garden" tvg-logo="https://static.wikia.nocookie.net/bbc/images/a/af/BBC_Home.png" group-title="Documentary",029. BBC Home & Garden
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5fb5836fe745b600070fc743/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c26f5a1-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=844b6663-bad2-462b-9aef-d0f33d5dfaa0
 
-#EXTINF:g-id="IqraaArabic.sa",030. Iqraa Arabic (1080p) [Not 24/7]
+#EXTINF:tvg-id="IqraaArabic.sa",030. Iqraa Arabic (1080p) [Not 24/7]
 https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv3/playlist.m3u8
 
-#EXTINF:g-id="KBSDrama.kr" tvg-logo="https://raw.githubusercontent.com/kaizere23/iptv2/refs/heads/main/logo/KBS_DRAMA.png" group-title="Korea",031. KBS Drama (480p)
+#EXTINF:tvg-id="KBSDrama.kr" tvg-logo="https://raw.githubusercontent.com/kaizere23/iptv2/refs/heads/main/logo/KBS_DRAMA.png" group-title="Korea",031. KBS Drama (480p)
 http://mytv.dothome.co.kr/ch/catv/2.php
 
-#EXTINF:g-id="HLDRDTV.kr" tvg-logo="https://raw.githubusercontent.com/kaizere23/iptv2/refs/heads/main/logo/Seoul_Broadcasting_System_logo.svg.png" group-title="Korea",032. SBS KBC (540p) [Not 24/7]
+#EXTINF:tvg-id="HLDRDTV.kr" tvg-logo="https://raw.githubusercontent.com/kaizere23/iptv2/refs/heads/main/logo/Seoul_Broadcasting_System_logo.svg.png" group-title="Korea",032. SBS KBC (540p) [Not 24/7]
 http://1.222.207.80:1935/live/cjbtv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="HLATDTV.kr" tvg-logo="https://raw.githubusercontent.com/kaizere23/iptv2/refs/heads/main/logo/Munhwa_Broadcasting_Corporation.png" group-title="Korea",033. MBC Yeosu (여수 MBC) (1080p) [Not 24/7]
 https://5c3639aa99149.streamlock.net/live_TV/tv/playlist.m3u8
 
-#EXTINF:g-id="CGNTVJapan.jp",034. CGNTV Japan (1080p)
+#EXTINF:tvg-id="CGNTVJapan.jp",034. CGNTV Japan (1080p)
 https://d2p4mrcwl6ly4.cloudfront.net/out/v1/8d50f69fdbbf411a8d302743e4263716/CGNWebLiveJP.m3u8
 
 #EXTINF:g-id="KBSWorld.kr" tvg-logo="https://i.imgur.com/kk2MdNC.png",035. KBS World (720p)
@@ -321,3 +321,4 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5a
 
 #EXTINF:g-id="ManUtd" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1834.png" group-title="Sports",104. Manchester_United
 https://bcovlive-a.akamaihd.net/r2d2c4ca5bf57456fb1d16255c1a535c8/eu-west-1/6058004203001/playlist.m3u8
+
