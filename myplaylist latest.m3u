@@ -101,7 +101,7 @@ https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv3/playlist.m
 http://mytv.dothome.co.kr/ch/catv/2.php
 
 #EXTINF:tvg-id="HLDRDTV.kr" tvg-logo="https://raw.githubusercontent.com/kaizere23/iptv2/refs/heads/main/logo/Seoul_Broadcasting_System_logo.svg.png" group-title="Korea",032. SBS KBC (540p) [Not 24/7]
-http://www.hwado.net/webtv/catv/502_76142D8F.php
+https://raw.githubusercontent.com/kaizere23/iptv2/refs/heads/main/sbs.m3u
 
 #EXTINF:-1 tvg-id="HLATDTV.kr" tvg-logo="https://raw.githubusercontent.com/kaizere23/iptv2/refs/heads/main/logo/Munhwa_Broadcasting_Corporation.png" group-title="Korea",033. MBC Yeosu (여수 MBC) (1080p) [Not 24/7]
 https://5c3639aa99149.streamlock.net/live_TV/tv/playlist.m3u8
