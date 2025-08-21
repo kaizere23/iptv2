@@ -24,7 +24,7 @@ https://d25tgymtnqzu8s.cloudfront.net/smil:tv6/playlist.m3u8?id=6
 http://198.16.100.186:8278/TVN/playlist.m3u8?tid=ME8E2207086222070862&ct=19249&tsum=b7f602e68174a03e917c7b354788bce9
 
 #EXTINF:g-id="AlQuranAlKareemTV.sa" tvg-logo="https://1.bp.blogspot.com/-G8AiREdNvYI/V4JSsE4HoZI/AAAAAAAAEBc/nN0nIrUiovcKjftgJqxvXgh3QM0P57kwgCLcB/s1600/al_quran_al_kareem_tv.png" group-title="Malaysia",008. Al Quran Al Kareem TV (1080p)
-http://m.live.net.sa:1935/live/quran/playlist.m3u8
+https://cdn-globecast.akamaized.net/live/eds/saudi_quran/hls_roku/index.m3u8
 
 #EXTINF:g-id="TV9.my" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/TV9_Malaysia_Logo_2021.png/476px-TV9_Malaysia_Logo_2021.png" group-title="Malaysia",009. TV9
 https://mifntechnology.github.io/siaranMy/channels/Tv9/index.m3u8
@@ -56,7 +56,7 @@ https://unifi-live01.secureswiftcontent.com/UnifiHD/live07.mpd
 https://d25tgymtnqzu8s.cloudfront.net/smil:sukan/manifest.mpd
 
 #EXTINF:tvg-id="ASTRO OASIS" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/70_144.png" group-title="Astro",018. ASTRO OASIS
-http://50.7.234.10:8278/Oasis/playlist.m3u8?tid=MABA2020629120206291&ct=19249&tsum=46be05252007b1efaae28ae3ab4cc7bb
+https://smart.pendy.dpdns.org/Smart.php?id=Oasis
 
 #EXTINF:tvg-id="TLC" tvg-logo="https://iptv-pro.github.io/logo/TLC.png" group-title="Astro",019. TLC
 http://50.7.234.10:8278/tlc_twn/playlist.m3u8?tid=MA0A5904082259040822&ct=19226&tsum=8fa7deead1d4b260825af15bc7378132
