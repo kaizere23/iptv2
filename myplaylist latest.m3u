@@ -110,7 +110,7 @@ https://5c3639aa99149.streamlock.net/live_TV/tv/playlist.m3u8
 https://d2p4mrcwl6ly4.cloudfront.net/out/v1/8d50f69fdbbf411a8d302743e4263716/CGNWebLiveJP.m3u8
 
 #EXTINF:g-id="KBSWorld.kr" tvg-logo="https://i.imgur.com/kk2MdNC.png",035. KBS World (720p)
-https://live.fptplay53.net/epzhd2/kbs_hls.smil/chunklist.m3u8
+https://smart.pendy.dpdns.org/Smart.php?id=KBS
 
 #EXTINF:g-id="KTV.kr",036. Korea TV (1080p)
 https://hlive.ktv.go.kr/live/klive_h.stream/playlist.m3u8
@@ -321,4 +321,3 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5a
 
 #EXTINF:g-id="ManUtd" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1834.png" group-title="Sports",104. Manchester_United
 https://bcovlive-a.akamaihd.net/r2d2c4ca5bf57456fb1d16255c1a535c8/eu-west-1/6058004203001/playlist.m3u8
-
