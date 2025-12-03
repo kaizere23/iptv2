@@ -9,10 +9,7 @@ https://d25tgymtnqzu8s.cloudfront.net/smil:tv1/playlist.m3u8?id=1
 https://d25tgymtnqzu8s.cloudfront.net/smil:tv2/playlist.m3u8?id=2
 
 #EXTINF:g-id="TV3.my" tvg-logo="https://www.logoquake.com/uploadfile/2024/0507/tv3_5ad4ee.png" group-title="Malaysia",003. TV3
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key={"3bc3f0e518aed92e80a98118e5bc2c10": "5fce364fbc4499856597b19a96f44648"}
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; CPH1819 Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/135.0.7049.99 Mobile Safari/537.36
-https://linearjitp-playback.astro.com.my/dash-wv/linear/809/default_primary.mpd
+https://live-ssar-02.tonton.com.my/1764785358/0xf3c6c7a04c3c80c9930a8f4f783f2bbec4d3ddd5934718a02d53e405b57aaec3/stream-tv3/master_720.m3u8?bpkio_serviceid=6c0958d82a830a02ca0936d9cfab8311&bpkio_sessionid=10a3d1d237-3fd5fb08-2b0d-499e-adce-93b2fdc3d145&category=all&did=cc53ebe1-c502-2c05-d922-b170553e48f9&dnt=0&ifatype=sessionid&lot_auds&mm_sp&plt=web&ttd_uid2=A4AAACD1EVwYHKDkU2O-TaHNyz2kSxifj5vlH4DOba2WDQA-0kFBpfcHsW4p0LaZpHOlOgDFAJzYqTiKfyNouRtPwQy-z_0qOwS54acxccQvE13THLeh1eQdkqVGCxY0YnPaULKQD6GotlmtYCDOPsLAlIhkEd55MwXLiFdJjjr-uLLAgmw6WgL97Q613Mc8BT1YmRDv55bn1of1NGUOC389_A
 
 #EXTINF:g-id="ArirangTV.kr" tvg-logo="https://i.imgur.com/Asu5pE9.png" group-title="korea",004. Arirang TV (720p)
 http://amdlive-ch02.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
@@ -113,7 +110,7 @@ https://5c3639aa99149.streamlock.net/live_TV/tv/playlist.m3u8
 https://d2p4mrcwl6ly4.cloudfront.net/out/v1/8d50f69fdbbf411a8d302743e4263716/CGNWebLiveJP.m3u8
 
 #EXTINF:g-id="KBSWorld.kr" tvg-logo="https://i.imgur.com/kk2MdNC.png",035. KBS World (720p)
-https://world.gscdn.kbs.co.kr/world-02/world-02_sd.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly93b3JsZC5nc2Nkbi5rYnMuY28ua3Ivd29ybGQtMDIvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NDYzMTk1Mn19fV19&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=J1TkYc7G0Qa5I6urw8zvza9mBeeOrp-vxn3HGQpa9jMhtw8MSXxAEb-i2Cv3~l-zWw3IXlulncyNRH4aYp-J9jCzXgvCF7mvQcb8FP9~dko5v-9hFqLGM4pfp-0cYsOXsLmfSFzydSD9kQXePVKLiUyNtpbMvmnPxfhk9i3I~OahiCWpO2bk5o38kq8yCqpI0HLxJCiL6foAsPds9Kun9VWsfNIu98baFomRDk9s5VWlsIg4htsuMHGP-8476ZkFx4eTHrk1tOUwmzOUZ-r5dVh1HVIfpUjWive7hoNUvxszXv2bDEPQawb2b0RXN3azVv5xABqFjrnnGSlJ~3Tf0Q__
+https://world.gscdn.kbs.co.kr/world-02/world-02_sd.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly93b3JsZC5nc2Nkbi5rYnMuY28ua3Ivd29ybGQtMDIvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NDkzNTI4OX19fV19&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=bq~xl0libpj1-WiWj8cmqpAcgVkUZhZrQb8wuq5neLTDcp2cJNNgC6o9s2uJOx6QABCgZ6X8MIUIadB1i0sRtfJS~R99mLOC6aqTFgG0ZMqa1JBVaEhpoD7BxOQNPdagq~rd7LIXULUKIigJDeXjhhndKkUGVFnPn7a66AzEEL5EoLiWeZjqXsn-6R4PKRF4giA8TiW~kYw6dK-fAJYFNC17RBcw-ZRToozn5N-MEscYum0tTfjcfRDUky0L5lRZAtjCD8k4Aq9IWpaSu1Chrvuw3Vsgp0TkuDTFwweOMq7SXQ1jriB-t3keHqU~fZKoKnlSFXg5sUhbtA33DclkEA__
 
 #EXTINF:g-id="KTV.kr",036. Korea TV (1080p)
 https://hlive.ktv.go.kr/live/klive_h.stream/playlist.m3u8
@@ -325,5 +322,5 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5a
 #EXTINF:g-id="ManUtd" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1834.png" group-title="Sports",104. Manchester_United
 https://bcovlive-a.akamaihd.net/r2d2c4ca5bf57456fb1d16255c1a535c8/eu-west-1/6058004203001/playlist.m3u8
 
-https://smart.pendy.dpdns.org/Smart.php?id=KBS
+
 
