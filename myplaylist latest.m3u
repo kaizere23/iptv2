@@ -21,7 +21,7 @@ https://d2idp3hzkhjpih.cloudfront.net/out/v1/4b85d9c2bf97413eb0c9fd875599b837/in
 https://d25tgymtnqzu8s.cloudfront.net/smil:tv6/playlist.m3u8?id=6
 
 #EXTINF:g-id="TVN" tvg-logo="https://images.seeklogo.com/logo-png/39/1/tvn-korea-2012-logo-png_seeklogo-397973.png" group-title="Astro",007. TVN
-http://205.185.120.57:8081/channel/1bd53814/index.m3u8
+http://smart.cityq.xyz:8278/TVN/playlist.m3u8?tid=ME8E2207086222070862&ct=19249&tsum=b7f602e68174a03e917c7b354788bce9
 
 #EXTINF:g-id="AlQuranAlKareemTV.sa" tvg-logo="https://1.bp.blogspot.com/-G8AiREdNvYI/V4JSsE4HoZI/AAAAAAAAEBc/nN0nIrUiovcKjftgJqxvXgh3QM0P57kwgCLcB/s1600/al_quran_al_kareem_tv.png" group-title="Malaysia",008. Al Quran Al Kareem TV (1080p)
 http://m.live.net.sa:1935/live/quran/playlist.m3u8
@@ -48,9 +48,7 @@ http://205.185.120.57:8081/channel/1bd4f0ff/index.m3u8
 https://d25tgymtnqzu8s.cloudfront.net/event/smil:event1/chunklist_b2596000_slENG.m3u8
 
 #EXTINF:-1 group-title="siaranMy" tvg-id="TVAlhijrah" tvg-name="TvAlhijrah" tvg-logo="https://github.com/MIFNtechnology/siaranMy/raw/main/logo/TvAlhijrah.png",016. Tv Alhijrah
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key={"4745ac4464797aa9d5ed653c1e987917": "ffe2dd898757fb14c156b3e014058ecc"}
-https://unifi-live01.secureswiftcontent.com/UnifiHD/live07.mpd
+https://tzh911.qzz.io/play-smt.php?id=Alhijrah
 
 #EXTINF:tvg-id="SukanRTM.my" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/b2/Sukan_RTM_1_April.png" group-title="Malaysia",017. Sukan RTM [Geo-blocked]
 https://d25tgymtnqzu8s.cloudfront.net/smil:sukan/manifest.mpd
@@ -323,4 +321,5 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5a
 https://bcovlive-a.akamaihd.net/r2d2c4ca5bf57456fb1d16255c1a535c8/eu-west-1/6058004203001/playlist.m3u8
 
 https://smart.pendy.dpdns.org/Smart.php?id=KBS
+
 
