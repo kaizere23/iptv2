@@ -110,7 +110,7 @@ https://5c3639aa99149.streamlock.net/live_TV/tv/playlist.m3u8
 https://d2p4mrcwl6ly4.cloudfront.net/out/v1/8d50f69fdbbf411a8d302743e4263716/CGNWebLiveJP.m3u8
 
 #EXTINF:g-id="KBSWorld.kr" tvg-logo="https://i.imgur.com/kk2MdNC.png",035. KBS World (720p)
-https://world.gscdn.kbs.co.kr/world-02/world-02_sd.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly93b3JsZC5nc2Nkbi5rYnMuY28ua3Ivd29ybGQtMDIvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NDkzNTI4OX19fV19&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=bq~xl0libpj1-WiWj8cmqpAcgVkUZhZrQb8wuq5neLTDcp2cJNNgC6o9s2uJOx6QABCgZ6X8MIUIadB1i0sRtfJS~R99mLOC6aqTFgG0ZMqa1JBVaEhpoD7BxOQNPdagq~rd7LIXULUKIigJDeXjhhndKkUGVFnPn7a66AzEEL5EoLiWeZjqXsn-6R4PKRF4giA8TiW~kYw6dK-fAJYFNC17RBcw-ZRToozn5N-MEscYum0tTfjcfRDUky0L5lRZAtjCD8k4Aq9IWpaSu1Chrvuw3Vsgp0TkuDTFwweOMq7SXQ1jriB-t3keHqU~fZKoKnlSFXg5sUhbtA33DclkEA__
+https://world.gscdn.kbs.co.kr/world-02/world-02_sd.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly93b3JsZC5nc2Nkbi5rYnMuY28ua3Ivd29ybGQtMDIvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NTIzNjUwOX19fV19&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=egWK0V8LXdkftKWa3bh-LJ7Gyy4EX3vbJ3AFas2msxo065d2eneGJ9sVZiiOhpb0SzIdvxFLVhy3w-xGgsj0dJ~~62roAO2dcg0J250I0hH3BGVakiUY3dGHk1C85x8yE5mZlMhqZ4kextvZI6gF-b1ASF7DH7E64wo6S5WCg6da94Sz~QWTfuMLAFaSDGQFOqz7kmrwW9zSTRXwPRIiNGKjet0NtTdmE8b9ELB138KRweOht4X-zpQjLaM6X2V0VZyEj9rQzhpp3qSexsDGazVUjeOWhQQDUZdteoPitveah3vuSVz~5uPcxXuw3iFt5yGrTSSm1cGN4KH85arXtw__
 
 #EXTINF:g-id="KTV.kr",036. Korea TV (1080p)
 https://hlive.ktv.go.kr/live/klive_h.stream/playlist.m3u8
@@ -322,5 +322,5 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5a
 #EXTINF:g-id="ManUtd" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1834.png" group-title="Sports",104. Manchester_United
 https://bcovlive-a.akamaihd.net/r2d2c4ca5bf57456fb1d16255c1a535c8/eu-west-1/6058004203001/playlist.m3u8
 
-
+https://smart.pendy.dpdns.org/Smart.php?id=KBS
 
