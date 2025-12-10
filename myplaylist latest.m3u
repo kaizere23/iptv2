@@ -108,7 +108,7 @@ https://5c3639aa99149.streamlock.net/live_TV/tv/playlist.m3u8
 https://d2p4mrcwl6ly4.cloudfront.net/out/v1/8d50f69fdbbf411a8d302743e4263716/CGNWebLiveJP.m3u8
 
 #EXTINF:g-id="KBSWorld.kr" tvg-logo="https://i.imgur.com/kk2MdNC.png",035. KBS World (720p)
-https://world.gscdn.kbs.co.kr/world-02/world-02_sd.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly93b3JsZC5nc2Nkbi5rYnMuY28ua3Ivd29ybGQtMDIvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NTIzNjUwOX19fV19&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=egWK0V8LXdkftKWa3bh-LJ7Gyy4EX3vbJ3AFas2msxo065d2eneGJ9sVZiiOhpb0SzIdvxFLVhy3w-xGgsj0dJ~~62roAO2dcg0J250I0hH3BGVakiUY3dGHk1C85x8yE5mZlMhqZ4kextvZI6gF-b1ASF7DH7E64wo6S5WCg6da94Sz~QWTfuMLAFaSDGQFOqz7kmrwW9zSTRXwPRIiNGKjet0NtTdmE8b9ELB138KRweOht4X-zpQjLaM6X2V0VZyEj9rQzhpp3qSexsDGazVUjeOWhQQDUZdteoPitveah3vuSVz~5uPcxXuw3iFt5yGrTSSm1cGN4KH85arXtw__
+https://world.gscdn.kbs.co.kr/world-02/world-02_sd.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly93b3JsZC5nc2Nkbi5rYnMuY28ua3Ivd29ybGQtMDIvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NTU0MDkwMn19fV19&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=V4mTVjiiE6vVVBmA6339wNx0YXWhVD8n82KOgsJvL6f1YHu1OBUyO7c8sIJ7hnbYdWVCuXFEIiONgcWU-Uwuy0uE5fd1b1XpptsbdAxezPR5g~fz8rENzEZLlSO93aR13o1Gp1TySMFa5kSHPITu0qR9PtJ3OHZkHdvbWhYIZG7EeXqKKkiyCh--tmnAKEJvz9ZWv6zJZDiPMbARo5KA2rPM6HX9usY2HBNNePD~DP6UpZOKl7cQ8Xhm7KpG9-DMUmKhuMY5Knn-1jU6BGSpy-1rdlUF3u~z1beYTsOs5YdMI4bjTMmEIVk2UoGCmL2BGTcUCmYVfBQjYFjAJXp-5w__
 
 #EXTINF:g-id="KTV.kr",036. Korea TV (1080p)
 https://hlive.ktv.go.kr/live/klive_h.stream/playlist.m3u8
@@ -321,5 +321,6 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5a
 https://bcovlive-a.akamaihd.net/r2d2c4ca5bf57456fb1d16255c1a535c8/eu-west-1/6058004203001/playlist.m3u8
 
 https://smart.pendy.dpdns.org/Smart.php?id=KBS
+
 
 
