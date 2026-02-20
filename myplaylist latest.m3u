@@ -108,7 +108,7 @@ https://5c3639aa99149.streamlock.net/live_TV/tv/playlist.m3u8
 https://d2p4mrcwl6ly4.cloudfront.net/out/v1/8d50f69fdbbf411a8d302743e4263716/CGNWebLiveJP.m3u8
 
 #EXTINF:g-id="KBSWorld.kr" tvg-logo="https://i.imgur.com/kk2MdNC.png",035. KBS World (720p)
-http://103.78.149.54:8000/play/a02e/index.m3u8
+https://world.gscdn.kbs.co.kr/world-02/world-02_sd.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly93b3JsZC5nc2Nkbi5rYnMuY28ua3Ivd29ybGQtMDIvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc3MTc1MTA2N319fV19&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=I4DfH~g3-9czPuAhJtqNK8goxW5S-5niToD6fKN0AFfixm5NIz97fWLruwtgkJTrmEMNjJKxu7p4VjzeLUJAxNyI-vow7jCMiZYlQV14Xe4eZqKJlg1Zu9Vz66qzQZN50pbFabxJMudoSDyYGaeRRuTIhsp4VqYOga6Vw-r7znlCKJHCJNeLklbsl1jFWYTC4Dl3OwBxH219~KOMyitXHdS8xGRJUyqf~LyBmmx76fjD9RYTpTuikXbKRmgOENCf1xp2SOjLmBVNsHN6kXMqUyE7T-K~qZuuL2DEU-K4gT2eYUmeoY1H-eD5PYBUnhVasOaGR1WFiHdoVIA2C~Ul4w__
 
 #EXTINF:g-id="KTV.kr",036. Korea TV (1080p)
 https://hlive.ktv.go.kr/live/klive_h.stream/playlist.m3u8
@@ -126,7 +126,7 @@ https://github.com/BellezaEmporium/IPTV_Exception/raw/master/channels/kr/natv.m3
 https://media.joycorp.co.kr:4443/live/ngrp:live_all/playlist.m3u8
 
 #EXTINF:g-id="NHKWorldJapan.jp" tvg-logo="https://raw.githubusercontent.com/kaizere23/iptv2/refs/heads/main/logo/NHK_World.png" group-title="News",041. NHK World Japan (1080p)
-https://viamotionhsi.netplus.ch/live/eds/nhk/browser-HLS8/nhk.m3u8
+https://masterpl.hls.nhkworld.jp/hls/w/live/smarttv.m3u8
 
 #EXTINF:g-id="NHKWorldPremium.jp",042. NHK World Premium (480p)
 https://cdn.skygo.mn/live/disk1/NHK_World_Premium/HLSv3-FTA/NHK_World_Premium.m3u8
@@ -321,6 +321,7 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5a
 https://bcovlive-a.akamaihd.net/r2d2c4ca5bf57456fb1d16255c1a535c8/eu-west-1/6058004203001/playlist.m3u8
 
 https://smart.pendy.dpdns.org/Smart.php?id=KBS
+
 
 
 
