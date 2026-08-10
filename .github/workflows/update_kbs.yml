@@ -1,10 +1,9 @@
-name: Auto Update KBS M3U8 Link (Playwright)
+name: Auto Update KBS M3U8 Link
 
 on:
   schedule:
-    # Dijalankan secara automatik setiap 1 jam sekali
-    - cron: '0 * * * *'
-  workflow_dispatch: # Membenarkan anda tekan "Run workflow" secara manual
+    - cron: '0 * * * *'  # Berjalan setiap 1 jam
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -24,13 +23,12 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install Dependencies & Playwright
+      - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install playwright
-          playwright install --with-deps chromium
+          pip install requests
 
-      - name: Run Playwright Scraper
+      - name: Run API Fetcher
         run: |
           python get_kbs.py
 
