@@ -2,8 +2,12 @@ name: Auto Update KBS M3U8 Link
 
 on:
   schedule:
-    - cron: '0 */6 * * *' # Boleh diset setiap 6 jam
+    - cron: '0 */6 * * *'
   workflow_dispatch:
+
+# BERIKAN KEBENARAN MENULIS (WRITE PERMISSION) DI SINI
+permissions:
+  contents: write
 
 jobs:
   update-m3u8:
@@ -12,6 +16,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -32,9 +38,7 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-          # Pastikan fail wujud sebelum git add
           touch kbs_world.m3u8
           git add kbs_world.m3u8
           
-          # Commit hanya jika ada perubahan
           git diff --staged --quiet || (git commit -m "Update KBS M3U8 link" && git push)
