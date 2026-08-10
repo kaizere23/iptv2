@@ -6,67 +6,91 @@ PAGE_URL = "https://world.kbs.co.kr/service/live_index.htm?lang=e"
 
 def fetch_signed_m3u8():
     with sync_playwright() as p:
-        print("Luncurkan pelayar Chromium (Headless)...")
-        browser = p.chromium.launch(headless=True)
+        print("Luncurkan pelayar Chromium dengan pintasan bot-detection...")
+
+        # Gunakan argumen pintar untuk elak dikesan sebagai bot
+        browser = p.chromium.launch(
+            headless=True,
+            args=[
+                "--disable-blink-features=AutomationControlled",
+                "--no-sandbox",
+                "--disable-setuid-sandbox",
+            ],
+        )
+
         context = browser.new_context(
             user_agent=(
                 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
                 "AppleWebKit/537.36 (KHTML, like Gecko) "
                 "Chrome/122.0.0.0 Safari/537.36"
-            )
+            ),
+            viewport={"width": 1280, "height": 720},
         )
+
         page = context.new_page()
+
+        # Matikan bendera webdriver supaya tidak dikesan sebagai headless bot
+        page.add_init_script(
+            "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
+        )
 
         captured_url = None
 
-        # Pintas & tangkap sebarang HTTP Request yang menuju ke gscdn/m3u8 berserta Signature
+        # Dengar trafik rangkaian (termasuk iframe)
         def handle_request(request):
             nonlocal captured_url
             url = request.url
-            if (
+            if ".m3u8" in url and (
                 "gscdn.kbs.co.kr" in url
-                and ".m3u8" in url
-                and "Signature=" in url
+                or "world" in url
+                or "Signature=" in url
             ):
-                captured_url = url
-                print(f"\n[+] BERJAYA TANGKAP SIGNED URL:\n{captured_url}\n")
+                if not captured_url or "Signature=" in url:
+                    captured_url = url
+                    print(f"\n[+] BERJAYA TANGKAP M3U8 URL:\n{captured_url}\n")
 
         page.on("request", handle_request)
 
         try:
             print("Melayari laman web KBS World...")
-            page.goto(PAGE_URL, timeout=60000, wait_until="networkidle")
+            page.goto(PAGE_URL, timeout=60000, wait_until="domcontentloaded")
+            page.wait_for_timeout(5000)
 
-            # Tunggu 8 saat untuk memastikan JavaScript pemain video sempat berjalan
-            page.wait_for_timeout(8000)
+            # Cari dan klik sebarang elemen video / frame / play
+            print("Memulakan siaran video di halaman...")
+            page.mouse.click(640, 360)  # Klik tengah skrin/player
 
-            # Jika masih belum dapat, cuba klik butang play jika wujud
+            # Cuba tekan spacebar atau enter untuk start player
+            page.keyboard.press("Space")
+
+            # Tunggu sehingga 12 saat untuk network request dijana
+            page.wait_for_timeout(12000)
+
+            # Jika masih belum tangkap, periksa iframe
             if not captured_url:
-                print(
-                    "Mencuba tekan butang play di halaman jika ada..."
-                )
-                play_button = page.query_selector(
-                    "button.btn-play, .player-play, #playBtn"
-                )
-                if play_button:
-                    play_button.click()
-                    page.wait_for_timeout(5000)
+                print("Memeriksa fail M3U8 di dalam iframe...")
+                for frame in page.frames:
+                    try:
+                        frame.evaluate(
+                            "document.querySelectorAll('video').forEach(v => v.play())"
+                        )
+                    except Exception:
+                        pass
+                page.wait_for_timeout(5000)
 
         except Exception as e:
             print(f"Ralat semasa navigasi: {e}")
 
         browser.close()
 
-        # Simpan pautan ke dalam fail kbs_world.m3u8
+        # Simpan ke fail jika berjaya
         if captured_url:
             m3u_content = f"#EXTM3U\n#EXTINF:-1, KBS World Live\n{captured_url}\n"
             with open("kbs_world.m3u8", "w", encoding="utf-8") as f:
                 f.write(m3u_content)
-            print("Fail kbs_world.m3u8 berjaya dikemaskini dengan Signed URL sah!")
+            print("Fail kbs_world.m3u8 berjaya dikemaskini!")
         else:
-            print(
-                "[-] Gagal menangkap Signed URL dari trafik rangkaian."
-            )
+            print("[-] Gagal menangkap Signed URL dari trafik rangkaian.")
             sys.exit(1)
 
 
