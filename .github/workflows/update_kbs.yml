@@ -2,7 +2,8 @@ name: Auto Update KBS M3U8 Link
 
 on:
   schedule:
-    - cron: '0 */6 * * *'
+    # Dijalankan setiap 1 jam sekali (Cron format)
+    - cron: '0 * * * *'
   workflow_dispatch:
 
 # BERIKAN KEBENARAN MENULIS (WRITE PERMISSION) DI SINI
