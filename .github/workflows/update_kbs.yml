@@ -2,9 +2,8 @@ name: Auto Update KBS M3U8 Link
 
 on:
   schedule:
-    # Dijalankan secara automatik setiap 1 jam sekali
-    - cron: '0 * * * *'
-  workflow_dispatch: # Membenarkan punang "Run workflow" dipicit secara manual di GitHub
+    - cron: '0 */6 * * *' # Boleh diset setiap 6 jam
+  workflow_dispatch:
 
 jobs:
   update-m3u8:
@@ -32,7 +31,10 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Pastikan fail wujud sebelum git add
+          touch kbs_world.m3u8
           git add kbs_world.m3u8
           
-          # Hanya commit jika ada perubahan pada kandungan fail
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Chore: Update KBS M3U8 signed link" && git push)
+          # Commit hanya jika ada perubahan
+          git diff --staged --quiet || (git commit -m "Update KBS M3U8 link" && git push)
