@@ -1,12 +1,11 @@
-name: Auto Update KBS M3U8 Link
+name: Auto Update KBS M3U8 Link (Playwright)
 
 on:
   schedule:
-    # Dijalankan setiap 1 jam sekali (Cron format)
+    # Dijalankan secara automatik setiap 1 jam sekali
     - cron: '0 * * * *'
-  workflow_dispatch:
+  workflow_dispatch: # Membenarkan anda tekan "Run workflow" secara manual
 
-# BERIKAN KEBENARAN MENULIS (WRITE PERMISSION) DI SINI
 permissions:
   contents: write
 
@@ -23,14 +22,15 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: '3.11'
 
-      - name: Install Dependencies
+      - name: Install Dependencies & Playwright
         run: |
           python -m pip install --upgrade pip
-          pip install requests
+          pip install playwright
+          playwright install --with-deps chromium
 
-      - name: Run Scraper Script
+      - name: Run Playwright Scraper
         run: |
           python get_kbs.py
 
@@ -42,4 +42,4 @@ jobs:
           touch kbs_world.m3u8
           git add kbs_world.m3u8
           
-          git diff --staged --quiet || (git commit -m "Update KBS M3U8 link" && git push)
+          git diff --staged --quiet || (git commit -m "Chore: Auto-update fresh KBS signed URL" && git push)
