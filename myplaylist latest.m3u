@@ -2,8 +2,7 @@
 
 # ==================== MALAYSIA (EPG 100+) ====================
 #EXTINF:-1 group-title="Malaysia" tvg-id="101" tvg-name="TV1" tvg-logo="http://img4.wikia.nocookie.net/__cb20131101030840/logopedia/images/4/40/TV1_Logo_2011.png",101. TV1 [Geo-blocked]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-https://d25tgymtnqzu8s.cloudfront.net/smil:tv1/playlist.m3u8?id=1
+https://d25tgymtnqzu8s.cloudfront.net/smil:tv1/chunklist_b2596000_slENG.m3u8?id=1
 
 #EXTINF:-1 group-title="Malaysia" tvg-id="102" tvg-name="TV2" tvg-logo="https://i.imgur.com/LGEdeyJ.png",102. TV2 [Geo-blocked]
 https://d25tgymtnqzu8s.cloudfront.net/live/media0/tv2/HLS/tv2.m3u8
