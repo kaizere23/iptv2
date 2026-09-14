@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://raw.githubusercontent.com/imanawesome2010/epg/master/epg.xml,https://epg.lat/files/my.xml.gz"
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/all.xml,https://iptv-org.github.io/epg/guides/all.xml,https://iptv-org.github.io/epg/guides/kr.xml,https://iptv-org.github.io/epg/guides/kr.xml"
 
 # ==================== MALAYSIA (EPG 100+) ====================
 #EXTINF:-1 group-title="Malaysia" tvg-id="101" tvg-name="TV1" tvg-logo="http://img4.wikia.nocookie.net/__cb20131101030840/logopedia/images/4/40/TV1_Logo_2011.png",101. TV1
@@ -82,7 +82,7 @@ https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 
 # ==================== KOREA (EPG 390+) ====================
 #EXTINF:-1 group-title="Korea" tvg-id="KBSWorld.kr" tvg-name="KBS World" tvg-logo="https://i.imgur.com/kk2MdNC.png",392. KBS World (720p)
-https://world.gscdn.kbs.co.kr/world-02/world-02_sd.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly93b3JsZC5nc2Nkbi5rYnMuY28ua3Ivd29ybGQtMDIvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc4OTUzNTgyMn19fV19&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=cBugIu6pncFcSLQvZJ1QNb6syxs7pqcucsVlm4MPYA63AMpGtPkdVVXqnFWvAQqUauRbSBo8J6HthRqP6V9722D4eG85ObPNTGVmoj2UqH7vxjWGokvjpFX29Xii1ystpOMSWB031YQCT92A-e0c5Z6enUp9K3yNcFds-p~x-RQWzZXH19E-BvGQNk5qi-kVjIwmrp7RG6264R6mMAn9kOpHUglMbH0kcJ6NnQ5MZ-zdNO9ROs6LvR2SrTRSvscArdWT8Yt76eSFWx7AJDNhIaV3Bmj4J3X1nxkid7APJzGiAt77CsniXPvrMFjWP4d5vSGezWeUynxbPZBmWlUBzg__
+https://raw.githubusercontent.com/kaizere23/iptv2/refs/heads/main/kbs_world.m3u
 
 #EXTINF:-1 group-title="Korea" tvg-id="ArirangTV.kr" tvg-name="Arirang TV" tvg-logo="https://i.imgur.com/Asu5pE9.png",394. Arirang TV (720p)
 http://amdlive-ch02.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
