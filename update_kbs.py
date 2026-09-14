@@ -4,7 +4,7 @@ import sys
 from playwright.async_api import async_playwright
 
 TARGET_WEB = "https://www.bosstv.top/kor/kbs-world"
-MASTER_M3U = "playlist.m3u"  # Tukar nama fail ini jika fail utama anda guna nama lain (cth: index.m3u)
+MASTER_M3U = "myplaylist latest.m3u"  # Tukar nama fail ini jika fail utama anda guna nama lain (cth: index.m3u)
 
 async def main():
     captured_urls = []
