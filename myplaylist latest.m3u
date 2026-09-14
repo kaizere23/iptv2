@@ -10,10 +10,10 @@ https://d25tgymtnqzu8s.cloudfront.net/smil:tv1/chunklist_b2596000_slENG.m3u8?id=
 https://d25tgymtnqzu8s.cloudfront.net/smil:tv2/index.m3u8?id=2
 
 #EXTINF:-1 group-title="Malaysia" tvg-id="103" tvg-name="TV3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/TV3_logo_2021.svg/512px-TV3_logo_2021.svg.png",103. TV3
-https://live-ssar-02.tonton.com.my/1764785358/0xf3c6c7a04c3c80c9930a8f4f783f2bbec4d3ddd5934718a02d53e405b57aaec3/stream-tv3/master_720.m3u8?bpkio_serviceid=6c0958d82a830a02ca0936d9cfab8311&bpkio_sessionid=10a3d1d237-3fd5fb08-2b0d-499e-adce-93b2fdc3d145&category=all&did=cc53ebe1-c502-2c05-d922-b170553e48f9&dnt=0&ifatype=sessionid&lot_auds&mm_sp&plt=web&ttd_uid2=A4AAACD1EVwYHKDkU2O-TaHNyz2kSxifj5vlH4DOba2WDQA-0kFBpfcHsW4p0LaZpHOlOgDFAJzYqTiKfyNouRtPwQy-z_0qOwS54acxccQvE13THLeh1eQdkqVGCxY0YnPaULKQD6GotlmtYCDOPsLAlIhkEd55MwXLiFdJjjr-uLLAgmw6WgL97Q613Mc8BT1YmRDv55bn1of1NGUOC389_A
+https://2bfd741e.b-cdn.net/streamer/6enj7a28wshMvNNzXzLrtmMDgVsnVpJC6cZGZf6g5yJt.m3u8?expires=1789393649&token=kZ8dwoS66Xn_OhcAfrpRGb8MwHM9W3_mD9TCWTRlRj4
 
 #EXTINF:-1 group-title="Malaysia" tvg-id="109" tvg-name="TV9" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/TV9_Malaysia_Logo_2021.png/476px-TV9_Malaysia_Logo_2021.png",109. TV9
-https://mifntechnology.github.io/siaranMy/channels/Tv9/index.m3u8
+https://2bfd741e.b-cdn.net/streamer/6enj7a28wshMvNNzXzLrtmMDgVsnVpJC6cZGZf6g5yJt.m3u8?expires=1789393649&token=kZ8dwoS66Xn_OhcAfrpRGb8MwHM9W3_mD9TCWTRlRj4
 
 #EXTINF:-1 group-title="Malaysia" tvg-id="114" tvg-name="Tv Alhijrah" tvg-logo="https://github.com/MIFNtechnology/siaranMy/raw/main/logo/TvAlhijrah.png",114. TV Alhijrah
 https://tzh911.qzz.io/play-smt.php?id=Alhijrah
