@@ -1,22 +1,35 @@
 name: Auto Update KBS
+
 on:
   schedule:
     - cron: '0 */6 * * *'
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+
       - run: pip install requests
+
       - run: python update_kbs.py
+
       - name: Commit and Push
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add kbs_world.m3u
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update KBS link" && git push)
+          if git diff --staged --quiet; then
+            echo "Tiada perubahan pada kbs_world.m3u"
+          else
+            git commit -m "Auto-update KBS link"
+            git push
+          fi
