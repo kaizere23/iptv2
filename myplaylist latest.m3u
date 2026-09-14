@@ -84,7 +84,7 @@ https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 #EXTINF:-1 group-title="Korea" tvg-id="KBSWorld.kr" tvg-name="KBS World" tvg-logo="https://i.imgur.com/kk2MdNC.png",392. KBS World (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.bosstv.top/
-https://raw.githubusercontent.com/kaizere23/iptv2/refs/heads/main/kbs_world.m3u
+https://raw.githubusercontent.com/kaizere23/iptv2/refs/heads/main/kbs_world.m3u8
 
 #EXTINF:-1 group-title="Korea" tvg-id="ArirangTV.kr" tvg-name="Arirang TV" tvg-logo="https://i.imgur.com/Asu5pE9.png",394. Arirang TV (720p)
 http://amdlive-ch02.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
