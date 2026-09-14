@@ -47,7 +47,6 @@ async def main():
 
     # Penulisan fail M3U
     m3u_content = f"""#EXTM3U
-#EXTINF:-1 group-title="Korea" tvg-id="KBSWorld.kr" tvg-name="KBS World" tvg-logo="https://i.imgur.com/v82M3U3.png",KBS World
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.bosstv.top/
 {final_stream_url}
