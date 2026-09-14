@@ -2,7 +2,7 @@ import re
 import requests
 
 TARGET_WEB = "https://www.bosstv.top/kor/kbs-world"
-M3U_FILE = "kbs_world.m3u8"
+M3U_FILE = "kbs_world.m3u"
 
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
