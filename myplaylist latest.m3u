@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://raw.githubusercontent.com/imanawesome2010/epg/master/epg.xml,https://epg.lat/files/my.xml.gz"
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/imanawesome2010/epg/master/epg.xml,https://epg.lat/files/my.xml.gz,https://cutt.ly/FreemediaMY-EPG-1,https://cutt.ly/FreemediaMY-EPG-2"
 
 # ==================== MALAYSIA (EPG 100+) ====================
 #EXTINF:-1 group-title="Malaysia" tvg-id="101" tvg-name="TV1" tvg-logo="http://img4.wikia.nocookie.net/__cb20131101030840/logopedia/images/4/40/TV1_Logo_2011.png",101. TV1
