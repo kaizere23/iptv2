@@ -1,97 +1,97 @@
 #EXTM3U
 
 # ==================== MALAYSIA (EPG 100+) ====================
-#EXTINF:-1 group-title="Malaysia" tvg-id="TV1.my" tvg-name="TV1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/TV1_logo_2021.svg/512px-TV1_logo_2021.svg.png",101. TV1 [Geo-blocked]
+#EXTINF:-1 group-title="Malaysia" tvg-id="TV1.my" tvg-name="TV1" tvg-logo="http://img4.wikia.nocookie.net/__cb20131101030840/logopedia/images/4/40/TV1_Logo_2011.png",101. TV1 [Geo-blocked]
 https://d25tgymtnqzu8s.cloudfront.net/smil:tv1/playlist.m3u8?id=1
 
-#EXTINF:-1 group-title="Malaysia" tvg-id="TV2.my" tvg-name="TV2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/TV2_logo_2021.svg/512px-TV2_logo_2021.svg.png",102. TV2 [Geo-blocked]
-https://d25tgymtnqzu8s.cloudfront.net/smil:tv2/playlist.m3u8?id=2
+#EXTINF:-1 group-title="Malaysia" tvg-id="TV2.my" tvg-name="TV2" tvg-logo="https://i.imgur.com/LGEdeyJ.png",102. TV2 [Geo-blocked]
+https://d25tgymtnqzu8s.cloudfront.net/live/media0/tv2/HLS/tv2-avc1_3000000=1985961624.m3u8
 
 #EXTINF:-1 group-title="Malaysia" tvg-id="TV3.my" tvg-name="TV3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/TV3_logo_2021.svg/512px-TV3_logo_2021.svg.png",103. TV3
 https://live-ssar-02.tonton.com.my/1764785358/0xf3c6c7a04c3c80c9930a8f4f783f2bbec4d3ddd5934718a02d53e405b57aaec3/stream-tv3/master_720.m3u8?bpkio_serviceid=6c0958d82a830a02ca0936d9cfab8311&bpkio_sessionid=10a3d1d237-3fd5fb08-2b0d-499e-adce-93b2fdc3d145&category=all&did=cc53ebe1-c502-2c05-d922-b170553e48f9&dnt=0&ifatype=sessionid&lot_auds&mm_sp&plt=web&ttd_uid2=A4AAACD1EVwYHKDkU2O-TaHNyz2kSxifj5vlH4DOba2WDQA-0kFBpfcHsW4p0LaZpHOlOgDFAJzYqTiKfyNouRtPwQy-z_0qOwS54acxccQvE13THLeh1eQdkqVGCxY0YnPaULKQD6GotlmtYCDOPsLAlIhkEd55MwXLiFdJjjr-uLLAgmw6WgL97Q613Mc8BT1YmRDv55bn1of1NGUOC389_A
 
-#EXTINF:-1 group-title="Malaysia" tvg-id="TV9.my" tvg-name="TV9" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/TV9_Malaysia_Logo_2021.png/512px-TV9_Malaysia_Logo_2021.png",109. TV9
+#EXTINF:-1 group-title="Malaysia" tvg-id="TV9.my" tvg-name="TV9" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/TV9_Malaysia_Logo_2021.png/476px-TV9_Malaysia_Logo_2021.png",109. TV9
 https://mifntechnology.github.io/siaranMy/channels/Tv9/index.m3u8
 
-#EXTINF:-1 group-title="Malaysia" tvg-id="TVAlhijrah" tvg-name="Tv Alhijrah" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/TV_AlHijrah_logo_2020.svg/512px-TV_AlHijrah_logo_2020.svg.png",114. TV Alhijrah
+#EXTINF:-1 group-title="Malaysia" tvg-id="TVAlhijrah" tvg-name="Tv Alhijrah" tvg-logo="https://github.com/MIFNtechnology/siaranMy/raw/main/logo/TvAlhijrah.png",114. TV Alhijrah
 https://tzh911.qzz.io/play-smt.php?id=Alhijrah
 
-#EXTINF:-1 group-title="Malaysia" tvg-id="TVS" tvg-name="TVS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/TVS_logo_%282024%29.png/512px-TVS_logo_%282024%29.png",122. TVS
+#EXTINF:-1 group-title="Malaysia" tvg-id="TVS" tvg-name="TVS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/80/TVS_logo_%282024%29.png",122. TVS
 https://stream2.smg.my/live/tvsplus_360p878kbs/index.m3u8
 
-#EXTINF:-1 group-title="Malaysia" tvg-id="Okey.my" tvg-name="Okey RTM" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/TV_Okey_logo_2018.svg/512px-TV_Okey_logo_2018.svg.png",146. TV Okey [Geo-blocked]
+#EXTINF:-1 group-title="Malaysia" tvg-id="Okey.my" tvg-name="Okey RTM" tvg-logo="https://i.pinimg.com/originals/1c/5b/3e/1c5b3eb05c9e03b1d750e75750da012b.png",146. TV Okey [Geo-blocked]
 https://d25tgymtnqzu8s.cloudfront.net/smil:okey/playlist.m3u8?id=3
 
-#EXTINF:-1 group-title="Malaysia" tvg-id="BeritaRTM.my" tvg-name="Berita RTM" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Logo_Berita_RTM.png/512px-Logo_Berita_RTM.png",123. Berita RTM [Geo-blocked]
+#EXTINF:-1 group-title="Malaysia" tvg-id="BeritaRTM.my" tvg-name="Berita RTM" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/Logo_Berita_RTM.png",123. Berita RTM [Geo-blocked]
 https://d25tgymtnqzu8s.cloudfront.net/smil:berita/playlist.m3u8?id=5
 
-#EXTINF:-1 group-title="Malaysia" tvg-id="TV6.my" tvg-name="TV6" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/TV6_RTM.png/512px-TV6_RTM.png",126. TV6 [Geo-blocked]
+#EXTINF:-1 group-title="Malaysia" tvg-id="TV6.my" tvg-name="TV6" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/dd/TV6_RTM.png",126. TV6 [Geo-blocked]
 https://d25tgymtnqzu8s.cloudfront.net/smil:tv6/playlist.m3u8?id=6
 
-#EXTINF:-1 group-title="Malaysia" tvg-id="SukanRTM.my" tvg-name="Sukan RTM" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b2/Sukan_RTM_1_April.png/512px-Sukan_RTM_1_April.png",111. Sukan RTM [Geo-blocked]
+#EXTINF:-1 group-title="Malaysia" tvg-id="SukanRTM.my" tvg-name="Sukan RTM" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/b2/Sukan_RTM_1_April.png",111. Sukan RTM [Geo-blocked]
 https://d25tgymtnqzu8s.cloudfront.net/smil:sukan/manifest.mpd
 
 #EXTINF:-1 group-title="Malaysia" tvg-id="TVIKIM.my" tvg-name="TVIKIM" tvg-logo="https://www.tvikim.my/images/Logo-tvikim-black.png",128. TVIKIM
 https://edge-sg1.vediostream.com/abr/tvikim/playlist.m3u8
 
-#EXTINF:-1 group-title="Malaysia" tvg-id="DuniaSinema.my" tvg-name="Dunia Sinema" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/DuniaSinema.png",129. Dunia Sinema (1080p)
+#EXTINF:-1 group-title="Malaysia" tvg-id="DuniaSinema.my" tvg-name="Dunia Sinema" tvg-logo="https://playtv.unifi.com.my:7047/CPS/images/universal/film/logo/201907/20190716/20190716074123890vav.png",129. Dunia Sinema (1080p)
 https://unifi-live05.secureswiftcontent.com/UnifiHD/live27-1080FHD.m3u8
 
-#EXTINF:-1 group-title="Malaysia" tvg-id="RTM_Asean" tvg-name="RTM Asean" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/TV1_logo_2021.svg/512px-TV1_logo_2021.svg.png",130. RTM Asean
+#EXTINF:-1 group-title="Malaysia" tvg-id="RTM_Asean" tvg-name="RTM Asean" tvg-logo="https://raw.githubusercontent.com/kaizere23/iptv2/refs/heads/main/logo/RTM_Asean_(2024).png",130. RTM Asean
 https://d25tgymtnqzu8s.cloudfront.net/event/smil:event1/chunklist_b2596000_slENG.m3u8
 
 # ==================== ASTRO & ENTERTAINMENT ====================
-#EXTINF:-1 group-title="Astro" tvg-id="ASTRO OASIS" tvg-name="ASTRO OASIS" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/AstroOasis.png",106. ASTRO OASIS
+#EXTINF:-1 group-title="Astro" tvg-id="ASTRO OASIS" tvg-name="ASTRO OASIS" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/70_144.png",106. ASTRO OASIS
 http://205.185.120.57:8081/channel/7b26a5b3/index.m3u8
 
-#EXTINF:-1 group-title="Astro" tvg-id="tvN" tvg-name="tvN" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/tvNAsia.png",395. tvN HD
+#EXTINF:-1 group-title="Astro" tvg-id="tvN" tvg-name="tvN" tvg-logo="https://images.seeklogo.com/logo-png/39/1/tvn-korea-2012-logo-png_seeklogo-397973.png",395. tvN HD
 http://smart.cityq.xyz:8278/TVN/playlist.m3u8?tid=ME8E2207086222070862&ct=19249&tsum=b7f602e68174a03e917c7b354788bce9
 
-#EXTINF:-1 group-title="Astro" tvg-id="AXN" tvg-name="AXN" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/AXNAsia.png",453. AXN HD
+#EXTINF:-1 group-title="Astro" tvg-id="AXN" tvg-name="AXN" tvg-logo="https://pluspng.com/img-png/axn-logo-vector-png-file-axn-hd-logo-2015-png-1412.png",453. AXN HD
 http://205.185.120.57:8081/channel/1bd4f0ff/index.m3u8
 
-#EXTINF:-1 group-title="Astro" tvg-id="TLC" tvg-name="TLC" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/TLCAsia.png",512. TLC HD
+#EXTINF:-1 group-title="Astro" tvg-id="TLC" tvg-name="TLC" tvg-logo="https://iptv-pro.github.io/logo/TLC.png",512. TLC HD
 http://cnlive.org/channel/n6760b00d/index.m3u8
 
 # ==================== NEWS & BUSINESS (EPG 500+) ====================
-#EXTINF:-1 group-title="News" tvg-id="AstroAwani.my" tvg-name="Astro Awani" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Astro_Awani_logo.svg/512px-Astro_Awani_logo.svg.png",501. Astro Awani (720p)
+#EXTINF:-1 group-title="News" tvg-id="AstroAwani.my" tvg-name="Astro Awani" tvg-logo="https://yapchankor.com/wp-content/uploads/2023/06/Astro-Awani-logo-color.png",501. Astro Awani (720p)
 https://d2idp3hzkhjpih.cloudfront.net/out/v1/4b85d9c2bf97413eb0c9fd875599b837/index.m3u8
 
-#EXTINF:-1 group-title="News" tvg-id="BBCNewsAsiaPacific.uk" tvg-name="BBC News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/BBC_News_2019.svg/512px-BBC_News_2019.svg.png",512. BBC News Asia Pacific (720p)
+#EXTINF:-1 group-title="News" tvg-id="BBCNewsAsiaPacific.uk" tvg-name="BBC News" tvg-logo="https://i.imgur.com/vSz2WEp.png",512. BBC News Asia Pacific (720p)
 https://vs-cmaf-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/iptv_hd_abr_v1.mpd
 
-#EXTINF:-1 group-title="News" tvg-id="AlJazeera" tvg-name="Al Jazeera" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Al_Jazeera_English_logo.svg/512px-Al_Jazeera_English_logo.svg.png",513. Al Jazeera English
+#EXTINF:-1 group-title="News" tvg-id="AlJazeera" tvg-name="Al Jazeera" tvg-logo="https://raw.githubusercontent.com/kaizere23/iptv2/refs/heads/main/logo/aljazeera.png",513. Al Jazeera English
 https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
 
-#EXTINF:-1 group-title="News" tvg-id="CNAInternational.sg" tvg-name="CNA International" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/CNA_logo_2019.svg/512px-CNA_logo_2019.svg.png",515. CNA International (1080p)
+#EXTINF:-1 group-title="News" tvg-id="CNAInternational.sg" tvg-name="CNA International" tvg-logo="https://www.intlpi.com/wp-content/uploads/2020/07/CNA-logo.png",515. CNA International (1080p)
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
 
 #EXTINF:-1 group-title="News" tvg-id="CNBCAsia.sg" tvg-name="CNBC Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/CNBC_logo.svg/512px-CNBC_logo.svg.png",516. CNBC Asia HD [Geo-blocked]
 https://cdn09jtedge.indihometv.com/joss/134/cnbcasia/index.m3u8
 
-#EXTINF:-1 group-title="News" tvg-id="BloombergTVAsia.hk" tvg-name="Bloomberg TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Bloomberg_Television_logo.svg/512px-Bloomberg_Television_logo.svg.png",517. Bloomberg TV Asia (720p)
+#EXTINF:-1 group-title="News" tvg-id="BloombergTVAsia.hk" tvg-name="Bloomberg TV" tvg-logo="https://i.imgur.com/OuogLHx.png",517. Bloomberg TV Asia (720p)
 https://bloomberg.com/media-manifest/streams/asia.m3u8
 
 #EXTINF:-1 group-title="News" tvg-id="NHKWorldJapan.jp" tvg-name="NHK World Japan" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/NHK_World-Japan_logo.svg/512px-NHK_World-Japan_logo.svg.png",518. NHK World Japan (1080p)
 https://masterpl.hls.nhkworld.jp/hls/w/live/smarttv.m3u8
 
-#EXTINF:-1 group-title="News" tvg-id="DW_Channel" tvg-name="DW Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_logo.svg/512px-Deutsche_Welle_logo.svg.png",540. DW Channel
+#EXTINF:-1 group-title="News" tvg-id="DW_Channel" tvg-name="DW Channel" tvg-logo="https://raw.githubusercontent.com/kaizere23/iptv2/refs/heads/main/logo/dw.png",540. DW Channel
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 
 # ==================== KOREA (EPG 390+) ====================
-#EXTINF:-1 group-title="Korea" tvg-id="KBSWorld.kr" tvg-name="KBS World" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/KBSWorld.png",392. KBS World (720p)
-https://world.gscdn.kbs.co.kr/world-02/world-02_sd.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly93b3JsZC5nc2Nkbi5rYnMuY28ua3Ivd29ybGQtMDIvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc4MjAzOTIxOX19fV19&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=mYOXIL60~TmlBgc8OA3tXe1o98a9V5S92XY5ULlJjhiAIhN9WJaDiAlBOzmzmBpixqxrFt15E5MTkWZs3pQ6I~QLTJmZ9xvFidC3CzLtVecOc5XzfEj0psCtLGTNEIvLKFoKxa214mSHFqnaoV1jN7gGovW~93nHXQmSedcgjrethIzZisUNpdEg7f4GLVCA7gLkkPgkzUuBddGsKNgdTSJNIVI0xW9AShVLBp0FFl1iGZdnMLWq-fz5pr~vPK1H6hILbD72a1UwQy2~glgyhi4xG22dRSH8-Ecc3Isphyjcz08WNfaYp9s9NBjf1E33q55QYE~BGB~XipoUYl3eYQ__
+#EXTINF:-1 group-title="Korea" tvg-id="KBSWorld.kr" tvg-name="KBS World" tvg-logo="https://i.imgur.com/kk2MdNC.png",392. KBS World (720p)
+https://world.gscdn.kbs.co.kr/world-02/world-02_sd.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly93b3JsZC5nc2Nkbi5rYnMuY28ua3Ivd29ybGQtMDIvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc4OTUzNTgyMn19fV19&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=cBugIu6pncFcSLQvZJ1QNb6syxs7pqcucsVlm4MPYA63AMpGtPkdVVXqnFWvAQqUauRbSBo8J6HthRqP6V9722D4eG85ObPNTGVmoj2UqH7vxjWGokvjpFX29Xii1ystpOMSWB031YQCT92A-e0c5Z6enUp9K3yNcFds-p~x-RQWzZXH19E-BvGQNk5qi-kVjIwmrp7RG6264R6mMAn9kOpHUglMbH0kcJ6NnQ5MZ-zdNO9ROs6LvR2SrTRSvscArdWT8Yt76eSFWx7AJDNhIaV3Bmj4J3X1nxkid7APJzGiAt77CsniXPvrMFjWP4d5vSGezWeUynxbPZBmWlUBzg__
 
-#EXTINF:-1 group-title="Korea" tvg-id="ArirangTV.kr" tvg-name="Arirang TV" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/ArirangWorld.png",394. Arirang TV (720p)
+#EXTINF:-1 group-title="Korea" tvg-id="ArirangTV.kr" tvg-name="Arirang TV" tvg-logo="https://i.imgur.com/Asu5pE9.png",394. Arirang TV (720p)
 http://amdlive-ch02.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
 
 #EXTINF:-1 group-title="Korea" tvg-id="KBSDrama.kr" tvg-name="KBS Drama" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/KBSDrama.png",396. KBS Drama (480p)
 http://mytv.dothome.co.kr/ch/catv/2.php
 
-#EXTINF:-1 group-title="Korea" tvg-id="HLDRDTV.kr" tvg-name="SBS KBC" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/kbc.png",397. SBS KBC (540p) [Not 24/7]
+#EXTINF:-1 group-title="Korea" tvg-id="HLDRDTV.kr" tvg-name="SBS KBC" tvg-logo="https://raw.githubusercontent.com/kaizere23/iptv2/refs/heads/main/logo/Seoul_Broadcasting_System_logo.svg.png",397. SBS KBC (540p) [Not 24/7]
 http://123.140.197.22/stream/1/play.m3u8
 
-#EXTINF:-1 group-title="Korea" tvg-id="HLATDTV.kr" tvg-name="MBC Yeosu" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/MBCYeosu.png",398. MBC Yeosu (1080p) [Not 24/7]
+#EXTINF:-1 group-title="Korea" tvg-id="HLATDTV.kr" tvg-name="MBC Yeosu" tvg-logo="https://raw.githubusercontent.com/kaizere23/iptv2/refs/heads/main/logo/Munhwa_Broadcasting_Corporation.png",398. MBC Yeosu (1080p) [Not 24/7]
 https://5c3639aa99149.streamlock.net/live_TV/tv/playlist.m3u8
 
 #EXTINF:-1 group-title="Korea" tvg-id="KTV.kr" tvg-name="Korea TV" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/KTV.png",399. Korea TV (1080p)
@@ -172,8 +172,8 @@ http://fl1.moveonjoy.com/DISNEY_XD/index.m3u8
 #EXTINF:-1 group-title="International" tvg-id="ZooMoo.sg" tvg-name="ZooMoo Asia" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/ZooMooAsia.png",619. ZooMoo Asia (1080p)
 https://zoomoo-samsungau.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 group-title="International" tvg-id="NHKWorldPremium.jp" tvg-name="NHK World Premium" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/NHKWorldPremium.png",391. NHK World Premium (480p)
-https://cdn.skygo.mn/live/disk1/NHK_World_Premium/HLSv3-FTA/NHK_World_Premium.m3u8
+#EXTINF:-1 group-title="International" tvg-id="NHKWorldPremium.jp" tvg-name="NHK World Premium" tvg-logo="https://i.imgur.com/4ESi2La.png",391. NHK World Premium (480p)
+https://media-osa.hls.nhkworld.jp/hls/wp/live/master.m3u8
 
 #EXTINF:-1 group-title="International" tvg-id="JOAXDTV.jp" tvg-name="Nippon TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Nippon_TV_logo_2014.svg/512px-Nippon_TV_logo_2014.svg.png",390. Nippon TV (540p) [Not 24/7]
 https://ntv4.mov3.co/hls/ntv.m3u8
