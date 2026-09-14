@@ -9,7 +9,7 @@ https://d25tgymtnqzu8s.cloudfront.net/smil:tv1/chunklist_b2596000_slENG.m3u8?id=
 #EXTINF:-1 group-title="Malaysia" tvg-id="102" tvg-name="TV2" tvg-logo="https://i.imgur.com/LGEdeyJ.png",102. TV2 [Geo-blocked]
 https://d25tgymtnqzu8s.cloudfront.net/smil:tv2/index.m3u8?id=2
 
-#EXTINF:-1 group-title="Malaysia" tvg-id="103" tvg-name="TV3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/TV3_logo_2021.svg/512px-TV3_logo_2021.svg.png",103. TV3
+#EXTINF:-1 group-title="Malaysia" tvg-id="103" tvg-name="TV3" tvg-logo="https://github.com/kaizere23/iptv2/blob/main/logo/tv3.png",103. TV3
 https://2bfd741e.b-cdn.net/streamer/6enj7a28wshMvNNzXzLrtmMDgVsnVpJC6cZGZf6g5yJt.m3u8?expires=1789393649&token=kZ8dwoS66Xn_OhcAfrpRGb8MwHM9W3_mD9TCWTRlRj4
 
 #EXTINF:-1 group-title="Malaysia" tvg-id="109" tvg-name="TV9" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/TV9_Malaysia_Logo_2021.png/476px-TV9_Malaysia_Logo_2021.png",109. TV9
