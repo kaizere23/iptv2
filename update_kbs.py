@@ -42,7 +42,8 @@ async def main():
 #EXTINF:-1 group-title="Korea" tvg-id="KBSWorld.kr" tvg-name="KBS World" tvg-logo="https://i.imgur.com/v82M3U3.png",KBS World
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.bosstv.top/
-{final_stream_url}|Referer=https://www.bosstv.top/&User-Agent=Mozilla/5.0
+#EXTHTTP:{"Referer":"https://www.bosstv.top/","User-Agent":"Mozilla/5.0"}
+{final_stream_url}
 """
 
     with open(M3U_FILE, "w", encoding="utf-8") as f:
