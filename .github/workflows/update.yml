@@ -2,7 +2,7 @@ name: Auto Update KBS
 
 on:
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '0 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -18,18 +18,23 @@ jobs:
         with:
           python-version: '3.11'
 
-      - run: pip install requests
+      - name: Install Dependencies
+        run: |
+          pip install playwright
+          playwright install chromium
+          playwright install-deps
 
-      - run: python update_kbs.py
+      - name: Run Scraper with XVFB
+        run: xvfb-run python update_kbs.py
 
       - name: Commit and Push
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add kbs_world.m3u
+          git add .
           if git diff --staged --quiet; then
-            echo "Tiada perubahan pada kbs_world.m3u"
+            echo "Tiada perubahan dikesan."
           else
-            git commit -m "Auto-update KBS link"
+            git commit -m "Auto-update KBS token link"
             git push
           fi
