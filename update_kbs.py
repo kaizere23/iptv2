@@ -3,7 +3,7 @@ import sys
 from playwright.async_api import async_playwright
 
 TARGET_WEB = "https://www.bosstv.top/kor/kbs-world"
-M3U_FILE = "kbs_world.m3u"
+M3U_FILE = "kbs_world.m3u8"
 
 async def main():
     captured_urls = []
