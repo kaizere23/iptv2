@@ -1,36 +1,36 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
 
 # ==================== MALAYSIA (EPG 100+) ====================
-#EXTINF:-1 group-title="Malaysia" tvg-id="101" tvg-name="TV1" tvg-logo="http://img4.wikia.nocookie.net/__cb20131101030840/logopedia/images/4/40/TV1_Logo_2011.png",101. TV1
+#EXTINF:-1 group-title="Malaysia" tvg-id="TV1.my" tvg-name="TV1" tvg-logo="http://img4.wikia.nocookie.net/__cb20131101030840/logopedia/images/4/40/TV1_Logo_2011.png",101. TV1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://rtmklik.rtm.gov.my/
 https://d25tgymtnqzu8s.cloudfront.net/smil:tv1/chunklist_b2596000_slENG.m3u8?id=1|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)&Referer=https://rtmklik.rtm.gov.my/
 
-#EXTINF:-1 group-title="Malaysia" tvg-id="102" tvg-name="TV2" tvg-logo="https://i.imgur.com/LGEdeyJ.png",102. TV2 [Geo-blocked]
+#EXTINF:-1 group-title="Malaysia" tvg-id="TV2.my" tvg-name="TV2" tvg-logo="https://i.imgur.com/LGEdeyJ.png",102. TV2 [Geo-blocked]
 https://cuwf8jayq1.tenbytecdn.com/live/tv2/abr/tv2_720p/chunks.m3u8?md5=B5iPztOJZCVjj3Gf8SBkLg&expires=1789737299
 
-#EXTINF:-1 group-title="Malaysia" tvg-id="103" tvg-name="TV3" tvg-logo="https://github.com/kaizere23/iptv2/blob/main/logo/tv3.png",103. TV3
+#EXTINF:-1 group-title="Malaysia" tvg-id="TV3.my" tvg-name="TV3" tvg-logo="https://github.com/kaizere23/iptv2/blob/main/logo/tv3.png",103. TV3
 https://2bfd741e.b-cdn.net/streamer/6enj7a28wshMvNNzXzLrtmMDgVsnVpJC6cZGZf6g5yJt.m3u8?expires=1789393649&token=kZ8dwoS66Xn_OhcAfrpRGb8MwHM9W3_mD9TCWTRlRj4
 
-#EXTINF:-1 group-title="Malaysia" tvg-id="109" tvg-name="TV9" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/TV9_Malaysia_Logo_2021.png/476px-TV9_Malaysia_Logo_2021.png",109. TV9
+#EXTINF:-1 group-title="Malaysia" tvg-id="TV9.my" tvg-name="TV9" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/TV9_Malaysia_Logo_2021.png/476px-TV9_Malaysia_Logo_2021.png",109. TV9
 https://2bfd741e.b-cdn.net/streamer/6enj7a28wshMvNNzXzLrtmMDgVsnVpJC6cZGZf6g5yJt.m3u8?expires=1789393649&token=kZ8dwoS66Xn_OhcAfrpRGb8MwHM9W3_mD9TCWTRlRj4
 
-#EXTINF:-1 group-title="Malaysia" tvg-id="114" tvg-name="Tv Alhijrah" tvg-logo="https://github.com/MIFNtechnology/siaranMy/raw/main/logo/TvAlhijrah.png",114. TV Alhijrah
+#EXTINF:-1 group-title="Malaysia" tvg-id="TVAlhijrah.my" tvg-name="TV Alhijrah" tvg-logo="https://github.com/MIFNtechnology/siaranMy/raw/main/logo/TvAlhijrah.png",114. TV Alhijrah
 https://tzh911.qzz.io/play-smt.php?id=Alhijrah
 
-#EXTINF:-1 group-title="Malaysia" tvg-id="122" tvg-name="TVS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/80/TVS_logo_%282024%29.png",122. TVS
+#EXTINF:-1 group-title="Malaysia" tvg-id="TVS.my" tvg-name="TVS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/80/TVS_logo_%282024%29.png",122. TVS
 https://stream2.smg.my/live/tvsplus_360p878kbs/index.m3u8
 
-#EXTINF:-1 group-title="Malaysia" tvg-id="146" tvg-name="Okey RTM" tvg-logo="https://i.pinimg.com/originals/1c/5b/3e/1c5b3eb05c9e03b1d750e75750da012b.png",146. TV Okey [Geo-blocked]
+#EXTINF:-1 group-title="Malaysia" tvg-id="TVOkey.my" tvg-name="TV Okey" tvg-logo="https://i.pinimg.com/originals/1c/5b/3e/1c5b3eb05c9e03b1d750e75750da012b.png",146. TV Okey [Geo-blocked]
 https://d25tgymtnqzu8s.cloudfront.net/smil:okey/playlist.m3u8?id=3
 
-#EXTINF:-1 group-title="Malaysia" tvg-id="123" tvg-name="Berita RTM" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/Logo_Berita_RTM.png",123. Berita RTM [Geo-blocked]
+#EXTINF:-1 group-title="Malaysia" tvg-id="BeritaRTM.my" tvg-name="Berita RTM" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/Logo_Berita_RTM.png",123. Berita RTM [Geo-blocked]
 https://d25tgymtnqzu8s.cloudfront.net/smil:berita/playlist.m3u8?id=5
 
-#EXTINF:-1 group-title="Malaysia" tvg-id="126" tvg-name="TV6" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/dd/TV6_RTM.png",126. TV6 [Geo-blocked]
+#EXTINF:-1 group-title="Malaysia" tvg-id="TV6.my" tvg-name="TV6" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/dd/TV6_RTM.png",126. TV6 [Geo-blocked]
 https://d25tgymtnqzu8s.cloudfront.net/smil:tv6/playlist.m3u8?id=6
 
-#EXTINF:-1 group-title="Malaysia" tvg-id="111" tvg-name="Sukan RTM" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/b2/Sukan_RTM_1_April.png",111. Sukan RTM [Geo-blocked]
+#EXTINF:-1 group-title="Malaysia" tvg-id="SukanRTM.my" tvg-name="Sukan RTM" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/b2/Sukan_RTM_1_April.png",111. Sukan RTM [Geo-blocked]
 https://d25tgymtnqzu8s.cloudfront.net/smil:sukan/manifest.mpd
 
 #EXTINF:-1 group-title="Malaysia" tvg-id="TVIKIM.my" tvg-name="TVIKIM" tvg-logo="https://www.tvikim.my/images/Logo-tvikim-black.png",128. TVIKIM
@@ -39,30 +39,30 @@ https://edge-sg1.vediostream.com/abr/tvikim/playlist.m3u8
 #EXTINF:-1 group-title="Malaysia" tvg-id="DuniaSinema.my" tvg-name="Dunia Sinema" tvg-logo="https://playtv.unifi.com.my:7047/CPS/images/universal/film/logo/201907/20190716/20190716074123890vav.png",129. Dunia Sinema (1080p)
 https://unifi-live05.secureswiftcontent.com/UnifiHD/live27-1080FHD.m3u8
 
-#EXTINF:-1 group-title="Malaysia" tvg-id="RTM_Asean" tvg-name="RTM Asean" tvg-logo="https://raw.githubusercontent.com/kaizere23/iptv2/refs/heads/main/logo/RTM_Asean_(2024).png",130. RTM Asean
+#EXTINF:-1 group-title="Malaysia" tvg-id="RTMAsean.my" tvg-name="RTM Asean" tvg-logo="https://raw.githubusercontent.com/kaizere23/iptv2/refs/heads/main/logo/RTM_Asean_(2024).png",130. RTM Asean
 https://d25tgymtnqzu8s.cloudfront.net/event/smil:event1/chunklist_b2596000_slENG.m3u8
 
 # ==================== ASTRO & ENTERTAINMENT ====================
-#EXTINF:-1 group-title="Astro" tvg-id="106" tvg-name="ASTRO OASIS" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/70_144.png",106. ASTRO OASIS
+#EXTINF:-1 group-title="Astro" tvg-id="AstroOasis.my" tvg-name="Astro Oasis" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/70_144.png",106. ASTRO OASIS
 http://205.185.120.57:8081/channel/7b26a5b3/index.m3u8
 
-#EXTINF:-1 group-title="Astro" tvg-id="395" tvg-name="tvN" tvg-logo="https://images.seeklogo.com/logo-png/39/1/tvn-korea-2012-logo-png_seeklogo-397973.png",395. tvN HD
+#EXTINF:-1 group-title="Astro" tvg-id="tvN.kr" tvg-name="tvN" tvg-logo="https://images.seeklogo.com/logo-png/39/1/tvn-korea-2012-logo-png_seeklogo-397973.png",395. tvN HD
 http://smart.cityq.xyz:8278/TVN/playlist.m3u8?tid=ME8E2207086222070862&ct=19249&tsum=b7f602e68174a03e917c7b354788bce9
 
-#EXTINF:-1 group-title="Astro" tvg-id="453" tvg-name="AXN" tvg-logo="https://pluspng.com/img-png/axn-logo-vector-png-file-axn-hd-logo-2015-png-1412.png",453. AXN HD
+#EXTINF:-1 group-title="Astro" tvg-id="AXN.sg" tvg-name="AXN" tvg-logo="https://pluspng.com/img-png/axn-logo-vector-png-file-axn-hd-logo-2015-png-1412.png",453. AXN HD
 http://205.185.120.57:8081/channel/1bd4f0ff/index.m3u8
 
-#EXTINF:-1 group-title="Astro" tvg-id="512" tvg-name="TLC" tvg-logo="https://iptv-pro.github.io/logo/TLC.png",512. TLC HD
+#EXTINF:-1 group-title="Astro" tvg-id="TLC.sg" tvg-name="TLC" tvg-logo="https://iptv-pro.github.io/logo/TLC.png",512. TLC HD
 http://cnlive.org/channel/n6760b00d/index.m3u8
 
 # ==================== NEWS & BUSINESS (EPG 500+) ====================
-#EXTINF:-1 group-title="News" tvg-id="501" tvg-name="Astro Awani" tvg-logo="https://yapchankor.com/wp-content/uploads/2023/06/Astro-Awani-logo-color.png",501. Astro Awani (720p)
+#EXTINF:-1 group-title="News" tvg-id="AstroAwani.my" tvg-name="Astro Awani" tvg-logo="https://yapchankor.com/wp-content/uploads/2023/06/Astro-Awani-logo-color.png",501. Astro Awani (720p)
 https://d2idp3hzkhjpih.cloudfront.net/out/v1/4b85d9c2bf97413eb0c9fd875599b837/index.m3u8
 
 #EXTINF:-1 group-title="News" tvg-id="BBCNewsAsiaPacific.uk" tvg-name="BBC News" tvg-logo="https://i.imgur.com/vSz2WEp.png",512. BBC News Asia Pacific (720p)
 https://vs-cmaf-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/iptv_hd_abr_v1.mpd
 
-#EXTINF:-1 group-title="News" tvg-id="AlJazeera" tvg-name="Al Jazeera" tvg-logo="https://raw.githubusercontent.com/kaizere23/iptv2/refs/heads/main/logo/aljazeera.png",513. Al Jazeera English
+#EXTINF:-1 group-title="News" tvg-id="AlJazeeraEnglish.qa" tvg-name="Al Jazeera" tvg-logo="https://raw.githubusercontent.com/kaizere23/iptv2/refs/heads/main/logo/aljazeera.png",513. Al Jazeera English
 https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
 
 #EXTINF:-1 group-title="News" tvg-id="CNAInternational.sg" tvg-name="CNA International" tvg-logo="https://www.intlpi.com/wp-content/uploads/2020/07/CNA-logo.png",515. CNA International (1080p)
@@ -77,7 +77,7 @@ https://bloomberg.com/media-manifest/streams/asia.m3u8
 #EXTINF:-1 group-title="News" tvg-id="NHKWorldJapan.jp" tvg-name="NHK World Japan" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/NHK_World-Japan_logo.svg/512px-NHK_World-Japan_logo.svg.png",518. NHK World Japan (1080p)
 https://masterpl.hls.nhkworld.jp/hls/w/live/smarttv.m3u8
 
-#EXTINF:-1 group-title="News" tvg-id="DW_Channel" tvg-name="DW Channel" tvg-logo="https://raw.githubusercontent.com/kaizere23/iptv2/refs/heads/main/logo/dw.png",540. DW Channel
+#EXTINF:-1 group-title="News" tvg-id="DWEnglish.de" tvg-name="DW Channel" tvg-logo="https://raw.githubusercontent.com/kaizere23/iptv2/refs/heads/main/logo/dw.png",540. DW Channel
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 
 # ==================== KOREA (EPG 390+) ====================
@@ -157,29 +157,29 @@ https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv3/playlist.m
 #EXTINF:-1 group-title="Middle East" tvg-id="MBCPlusDrama.sa" tvg-name="MBC+ Drama" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/MBCPlusDrama.png",704. MBC+ Drama (1080p)
 https://shls-mbcplusdrama-prod-dub.shahid.net/out/v1/97ca0ce6fc6142f4b14c0a694af59eab/index.m3u8
 
-#EXTINF:-1 group-title="Middle East" tvg-id="AbuDhabiAloula.ae" tvg-name="Abu Dhabi Aloula" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/AbuDhabiTV.png",705. Abu Dhabi Aloula (1080p)
+#EXTINF:-1 group-title="Middle East" tvg-id="AbuDhabiTV.ae" tvg-name="Abu Dhabi Aloula" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/AbuDhabiTV.png",705. Abu Dhabi Aloula (1080p)
 https://vo-live.cdb.cdn.orange.com/Content/Channel/AbuDhabiChannel/HLS/index.m3u8
 
-#EXTINF:-1 group-title="Middle East" tvg-id="AbuDhabiEmirates.ae" tvg-name="Abu Dhabi Emirates" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/EmaratTV.png",706. Abu Dhabi Emirates (1080p)
+#EXTINF:-1 group-title="Middle East" tvg-id="EmaratTV.ae" tvg-name="Abu Dhabi Emirates" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/EmaratTV.png",706. Abu Dhabi Emirates (1080p)
 https://vo-live.cdb.cdn.orange.com/Content/Channel/EmiratesChannel/HLS/index.m3u8
 
-#EXTINF:-1 group-title="Middle East" tvg-id="SBC.sa" tvg-name="SBC" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/SBCTV.png",707. SBC (1080p) [Not 24/7]
+#EXTINF:-1 group-title="Middle East" tvg-id="SBCTV.sa" tvg-name="SBC" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/SBCTV.png",707. SBC (1080p) [Not 24/7]
 https://sbc-prod-dub-ak.akamaized.net/out/v1/2eb1ad0f29984a339bc0fce4ce94dcbb/index.m3u8
 
 # ==================== KIDS & INTERNATIONAL (EPG 600/800+) ====================
-#EXTINF:-1 group-title="International" tvg-id="Disney" tvg-name="Disney Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Disney_Channel_Germany_Logo_2014.png/512px-Disney_Channel_Germany_Logo_2014.png",615. Disney Channel
+#EXTINF:-1 group-title="International" tvg-id="DisneyChannel.us" tvg-name="Disney Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Disney_Channel_Germany_Logo_2014.png/512px-Disney_Channel_Germany_Logo_2014.png",615. Disney Channel
 https://fl1.moveonjoy.com/DISNEY/index.m3u8
 
-#EXTINF:-1 group-title="International" tvg-id="DisneyXD.my" tvg-name="Disney XD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Logo_Disney_XD.png/512px-Disney_Channel_Germany_Logo_2014.png",616. Disney XD
+#EXTINF:-1 group-title="International" tvg-id="DisneyXD.us" tvg-name="Disney XD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Logo_Disney_XD.png/512px-Disney_Channel_Germany_Logo_2014.png",616. Disney XD
 http://fl1.moveonjoy.com/DISNEY_XD/index.m3u8
 
-#EXTINF:-1 group-title="International" tvg-id="ZooMoo.sg" tvg-name="ZooMoo Asia" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/ZooMooAsia.png",619. ZooMoo Asia (1080p)
+#EXTINF:-1 group-title="International" tvg-id="ZooMooAsia.sg" tvg-name="ZooMoo Asia" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/ZooMooAsia.png",619. ZooMoo Asia (1080p)
 https://zoomoo-samsungau.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 group-title="International" tvg-id="NHKWorldPremium.jp" tvg-name="NHK World Premium" tvg-logo="https://i.imgur.com/4ESi2La.png",391. NHK World Premium (480p)
 https://media-osa.hls.nhkworld.jp/hls/wp/live/master.m3u8
 
-#EXTINF:-1 group-title="International" tvg-id="JOAXDTV.jp" tvg-name="Nippon TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Nippon_TV_logo_2014.svg/512px-Nippon_TV_logo_2014.svg.png",390. Nippon TV (540p) [Not 24/7]
+#EXTINF:-1 group-title="International" tvg-id="NipponTV.jp" tvg-name="Nippon TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Nippon_TV_logo_2014.svg/512px-Nippon_TV_logo_2014.svg.png",390. Nippon TV (540p) [Not 24/7]
 https://ntv4.mov3.co/hls/ntv.m3u8
 
 #EXTINF:-1 group-title="International" tvg-id="CGNTVJapan.jp" tvg-name="CGNTV Japan" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/CGNTVJapan.png",801. CGNTV Japan (1080p)
