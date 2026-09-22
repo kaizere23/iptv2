@@ -7,6 +7,8 @@
 https://d25tgymtnqzu8s.cloudfront.net/smil:tv1/chunklist_b2596000_slENG.m3u8?id=1|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)&Referer=https://rtmklik.rtm.gov.my/
 
 #EXTINF:-1 group-title="Malaysia" tvg-id="TV2.my" tvg-name="TV2" tvg-logo="https://i.imgur.com/LGEdeyJ.png",102. TV2 [Geo-blocked]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://www.mana2.my
 https://cuwf8jayq1.tenbytecdn.com/live/tv2/abr/tv2_720p/chunks.m3u8?md5=B5iPztOJZCVjj3Gf8SBkLg&expires=1789737299
 
 #EXTINF:-1 group-title="Malaysia" tvg-id="TV3.my" tvg-name="TV3" tvg-logo="https://github.com/kaizere23/iptv2/blob/main/logo/tv3.png",103. TV3
