@@ -83,10 +83,9 @@ https://masterpl.hls.nhkworld.jp/hls/w/live/smarttv.m3u8
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 
 # ==================== KOREA (EPG 390+) ====================
-#EXTINF:-1 group-title="Korea" tvg-id="KBSWorld.kr" tvg-name="KBS World" tvg-logo="https://i.imgur.com/kk2MdNC.png",392. KBS World (720p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://www.bosstv.top/
-https://world.gscdn.kbs.co.kr/world-02/world-02_sd.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly93b3JsZC5nc2Nkbi5rYnMuY28ua3Ivd29ybGQtMDIvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5MDI0NzA0NX19fV19&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=R2D6YRRDHBTPRes6RUWY~g6SbMcMfxctQuND6tNNu2nbYwHbHW97rFXbkiylQJZ3dKWesnjXxXJqj3cazRlkyt0oizYXABrSkB~H6yTRNshra5lPi9yNy43Ch5gLOpIjEj-JuLBfUkDLXtnwiZArEgLbu-7aakz0aR8t3Z~xkR5U8SueezMj8oo83g5kv3U4DJaqJIBye01f89~ec3G-umiw~xeKt3HofdwmPT87UJnysqssYvRKLZWG6pNRbyF20nvxfoBofTnaeer3anCyMcSDezzub3STiL5835A70AcdNZpDzGgzvpBjUNzHnS4Pk69MQylltU5Y8qT7Dnzmpg__
+#EXTINF:-1 group-title="Korea" tvg-id="KBSWorld.kr" tvg-name="KBS World" tvg-logo="https://i.imgur.com/kk2MdNC.png",392. KBS World
+#EXTVLCOPT:http-referrer=https://vipotv.com/
+https://world.gscdn.kbs.co.kr/world-02/world-02_sd.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly93b3JsZC5nc2Nkbi5rYnMuY28ua3Ivd29ybGQtMDIvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5MDI3ODIxOH19fV19&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=G8OoLkmZs4ldO--wlJ89c2Ajhy3pEqVNfoQrSy1~xlQiR6MQ4EVUiZtlF1mjyI~Le1fvFH2dol2CAOxGId1K07PL4JLtf0dndDAzWpX0-RCKN9fip5hS68C86gzJ2dL07BcBi~P1gxaph44p8-2tYo4KISdy45STc57~HOFGWdHTYZScaTCLoddWQs9dzyRO947j7cA5RTtTv3437zxlCBWg32NZr8~HIB7xFNFo1rRsGWECSnJl2bhRGWPNqB~3XamzQvdaqEGX0-CiMJvjuIZ6S9NaRfzRU6kOTSFt6xi7gvkRtjtHlvxjtIevLT0r09BbamBZgMVRmTzRGJ2CFw__
 
 #EXTINF:-1 group-title="Korea" tvg-id="ArirangTV.kr" tvg-name="Arirang TV" tvg-logo="https://i.imgur.com/Asu5pE9.png",394. Arirang TV (720p)
 http://amdlive-ch02.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
