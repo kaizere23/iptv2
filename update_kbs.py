@@ -104,7 +104,7 @@ async def sniff_tv2():
 
     raw_url = valid_urls[-1]
 
-    # Force tukar ke resolusi 1080p
+    # Force tukar ke 1080p
     url_1080p = raw_url.replace("tv2_720p", "tv2_1080p") \
                         .replace("tv2_480p", "tv2_1080p") \
                         .replace("tv2_360p", "tv2_1080p") \
@@ -112,8 +112,9 @@ async def sniff_tv2():
 
     return url_1080p
 
+
 # ---------------------------------------------------------
-# 3. KEMAS KINI SPESIFIK UNTUK TV2.MY & KBSWORLD.KR
+# 3. KEMAS KINI M3U (COMPATIBLE DENGEN FAIL ANDA)
 # ---------------------------------------------------------
 async def main():
     new_kbs_url = await sniff_kbs()
@@ -127,44 +128,43 @@ async def main():
 
         # --- UPDATE TV2.MY ---
         if new_tv2_url:
-            # REGEX DITAMBAH BAIK: Cari dari #EXTINF yang ada TV2.my sehingga penghujung URL
-            tv2_pattern = r'#EXTINF:-1[^\n]*tvg-id="TV2\.my"[^\n]*\n(?:[^\n]+\n)*?https?://[^\s]+'
+            # Matches `#EXTINF` dengan `tvg-id="TV2.my"` sehingga penghujung talian URL (dengan/tanpa #EXTVLCOPT)
+            tv2_pattern = r'#EXTINF:-1[^\n]*tvg-id="TV2\.my"[^\n]*\n(?:#EXTVLCOPT:[^\n]*\n)*https?://[^\s]+'
             
             new_tv2_block = (
-                '#EXTINF:-1 group-title="Malaysia" tvg-id="TV2.my" tvg-name="TV2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/29/TV2_logo_2021.svg",TV2 (1080p)\n'
+                '#EXTINF:-1 group-title="Malaysia" tvg-id="TV2.my" tvg-name="TV2" tvg-logo="https://i.imgur.com/LGEdeyJ.png",102. TV2 (1080p)\n'
                 '#EXTVLCOPT:http-referrer=https://www.mana2.my/\n'
                 '#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)\n'
                 f'{new_tv2_url}'
             )
 
-            # Semak jika tag TV2.my wujud dalam M3U
             if re.search(r'tvg-id="TV2\.my"', content, flags=re.IGNORECASE):
                 content = re.sub(tv2_pattern, new_tv2_block, content, flags=re.IGNORECASE | re.DOTALL)
-                print(f"[SUKSES] TV2.my BERJAYA digantikan dengan 1080p -> {new_tv2_url}")
+                print(f"[SUKSES] TV2.my BERJAYA dikemas kini ke 1080p -> {new_tv2_url}")
                 updated = True
             else:
-                print("[AMARAN] Tag tvg-id=\"TV2.my\" TIDAK dijumpai dalam M3U. Sila semak fail M3U anda.")
+                print("[AMARAN] Tag tvg-id=\"TV2.my\" tidak dijumpai dalam M3U.")
         else:
-            print("[AMARAN] TV2 URL baharu tidak berjaya ditangkap dari mana2.my.")
+            print("[AMARAN] TV2 URL baharu tidak ditangkap dari mana2.my.")
 
         # --- UPDATE KBSWORLD.KR ---
         if new_kbs_url:
-            kbs_pattern = r'#EXTINF:-1[^\n]*tvg-id="KBSWorld\.kr"[^\n]*\n(?:[^\n]+\n)*?https?://[^\s]+'
+            kbs_pattern = r'#EXTINF:-1[^\n]*tvg-id="KBSWorld\.kr"[^\n]*\n(?:#EXTVLCOPT:[^\n]*\n)*https?://[^\s]+'
             
             new_kbs_block = (
-                '#EXTINF:-1 group-title="Korea" tvg-id="KBSWorld.kr" tvg-name="KBS World" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e2/KBS_World_2023.svg",KBS World\n'
+                '#EXTINF:-1 group-title="Korea" tvg-id="KBSWorld.kr" tvg-name="KBS World" tvg-logo="https://i.imgur.com/kk2MdNC.png",392. KBS World\n'
                 '#EXTVLCOPT:http-referrer=https://vipotv.com/\n'
                 f'{new_kbs_url}'
             )
 
             if re.search(r'tvg-id="KBSWorld\.kr"', content, flags=re.IGNORECASE):
                 content = re.sub(kbs_pattern, new_kbs_block, content, flags=re.IGNORECASE | re.DOTALL)
-                print(f"[SUKSES] KBSWorld.kr BERJAYA digantikan -> {new_kbs_url}")
+                print(f"[SUKSES] KBSWorld.kr BERJAYA dikemas kini -> {new_kbs_url}")
                 updated = True
             else:
-                print("[AMARAN] Tag tvg-id=\"KBSWorld.kr\" TIDAK dijumpai dalam M3U.")
+                print("[AMARAN] Tag tvg-id=\"KBSWorld.kr\" tidak dijumpai dalam M3U.")
         else:
-            print("[AMARAN] KBS World URL baharu tidak berjaya ditangkap.")
+            print("[AMARAN] KBS World URL baharu tidak ditangkap.")
 
         # --- SIMPAN FAIL ---
         if updated:
@@ -177,3 +177,6 @@ async def main():
     except Exception as e:
         print(f"Ralat menulis fail M3U: {e}")
         sys.exit(1)
+
+if __name__ == "__main__":
+    asyncio.run(main())
