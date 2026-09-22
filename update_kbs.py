@@ -10,15 +10,14 @@ MASTER_M3U = "myplaylist latest.m3u"
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-        "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+        "(KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
     )
 }
 
-
 # ---------------------------------------------------------
-# 1. SNIFFER UNTUK KBS WORLD
+# 1. SNIFFER KBS WORLD
 # ---------------------------------------------------------
-async def sniff_kbs_world():
+async def sniff_kbs():
     captured_urls = []
     print(f"Mencari pautan stream KBS World di {TARGET_KBS}...")
 
@@ -27,7 +26,8 @@ async def sniff_kbs_world():
             headless=True,
             args=["--no-sandbox", "--disable-setuid-sandbox", "--disable-blink-features=AutomationControlled"]
         )
-        context = await browser.new_context(user_agent=HEADERS["User-Agent"], viewport={"width": 1280, "height": 720})
+        context = await browser.new_context(user_agent=HEADERS["User-Agent"], viewport={"width": 1920, "height": 1080})
+        await context.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
         page = await context.new_page()
 
         async def handle_response(response):
@@ -50,7 +50,7 @@ async def sniff_kbs_world():
 
             await page.wait_for_timeout(8000)
         except Exception as e:
-            print(f"Amaran semasa melayari KBS World: {e}")
+            print(f"Amaran KBS World: {e}")
 
         await browser.close()
 
@@ -59,9 +59,9 @@ async def sniff_kbs_world():
 
 
 # ---------------------------------------------------------
-# 2. SNIFFER UNTUK TV2 (FORCE 1080P)
+# 2. SNIFFER TV2 (1080P)
 # ---------------------------------------------------------
-async def sniff_tv2_1080p():
+async def sniff_tv2():
     captured_urls = []
     print(f"Mencari pautan stream TV2 (1080p) di {TARGET_TV2}...")
 
@@ -70,7 +70,8 @@ async def sniff_tv2_1080p():
             headless=True,
             args=["--no-sandbox", "--disable-setuid-sandbox", "--disable-blink-features=AutomationControlled"]
         )
-        context = await browser.new_context(user_agent=HEADERS["User-Agent"], viewport={"width": 1280, "height": 720})
+        context = await browser.new_context(user_agent=HEADERS["User-Agent"], viewport={"width": 1920, "height": 1080})
+        await context.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
         page = await context.new_page()
 
         async def handle_response(response):
@@ -93,17 +94,17 @@ async def sniff_tv2_1080p():
 
             await page.wait_for_timeout(8000)
         except Exception as e:
-            print(f"Amaran semasa melayari TV2: {e}")
+            print(f"Amaran TV2: {e}")
 
         await browser.close()
 
-    valid_urls = [u for u in captured_urls if "tv2" in u.lower() or "tenbyte" in u.lower() or "rtm" in u.lower()]
+    valid_urls = [u for u in captured_urls if "tv2" in u.lower() or "tenbyte" in u.lower() or "rtm" in u.lower() or "chunk" in u.lower()]
     if not valid_urls:
         return None
 
     raw_url = valid_urls[-1]
 
-    # Paksa tukar parameter kualiti rendah kepada 1080p
+    # Force tukar ke resolusi 1080p
     url_1080p = raw_url.replace("tv2_720p", "tv2_1080p") \
                         .replace("tv2_480p", "tv2_1080p") \
                         .replace("tv2_360p", "tv2_1080p") \
@@ -113,11 +114,11 @@ async def sniff_tv2_1080p():
 
 
 # ---------------------------------------------------------
-# 3. LOGIK UTAMA KEMAS KINI FAIL M3U
+# 3. KEMAS KINI SPESIFIK UNTUK TV2.MY & KBSWORLD.KR
 # ---------------------------------------------------------
 async def main():
-    new_kbs_url = await sniff_kbs_world()
-    new_tv2_url = await sniff_tv2_1080p()
+    new_kbs_url = await sniff_kbs()
+    new_tv2_url = await sniff_tv2()
 
     try:
         with open(MASTER_M3U, "r", encoding="utf-8") as f:
@@ -125,47 +126,56 @@ async def main():
 
         updated = False
 
-        # --- UPDATE KBS WORLD ---
-        if new_kbs_url:
-            kbs_block_pattern = r'#EXTINF:-1.*?tvg-id="KBSWorld\.kr".*?\n(?:#EXTVLCOPT:.*\n)*https?://[^\s]+'
-            new_kbs_block = (
-                '#EXTINF:-1 group-title="Korea" tvg-id="KBSWorld.kr" tvg-name="KBS World" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e2/KBS_World_2023.svg",KBS World\n'
-                '#EXTVLCOPT:http-referrer=https://vipotv.com/\n'
-                f'{new_kbs_url}'
-            )
-            if re.search(r'tvg-id="KBSWorld\.kr"', content):
-                content = re.sub(kbs_block_pattern, new_kbs_block, content, flags=re.DOTALL)
-                print(f"[SUKSES] KBS World dikemas kini -> {new_kbs_url}")
-                updated = True
-        else:
-            print("[AMARAN] Tiada URL baharu dikesan untuk KBS World. Pautan sedia ada dikekalkan.")
-
-        # --- UPDATE TV2 1080P ---
+        # --- UPDATE TV2.MY ---
         if new_tv2_url:
-            tv2_block_pattern = r'#EXTINF:-1.*?tvg-id="TV2\.my".*?\n(?:#EXTVLCOPT:.*\n)*https?://[^\s]+'
+            # Regex spesifik mencari entri tvg-id="TV2.my" sahaja
+            tv2_pattern = r'#EXTINF:-1.*?tvg-id="TV2\.my".*?\n(?:#EXTVLCOPT:.*\n)*https?://[^\s]+'
+            
             new_tv2_block = (
                 '#EXTINF:-1 group-title="Malaysia" tvg-id="TV2.my" tvg-name="TV2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/29/TV2_logo_2021.svg",TV2 (1080p)\n'
                 '#EXTVLCOPT:http-referrer=https://www.mana2.my/\n'
                 '#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)\n'
                 f'{new_tv2_url}'
             )
+
             if re.search(r'tvg-id="TV2\.my"', content):
-                content = re.sub(tv2_block_pattern, new_tv2_block, content, flags=re.DOTALL)
-                print(f"[SUKSES] TV2 1080p dikemas kini -> {new_tv2_url}")
+                content = re.sub(tv2_pattern, new_tv2_block, content, flags=re.DOTALL)
+                print(f"[SUKSES] TV2.my dikemas kini (1080p) -> {new_tv2_url}")
                 updated = True
+            else:
+                print("[WARING] Tag tvg-id=\"TV2.my\" tidak dijumpai dalam M3U. Sila pastikan ejaan dalam fail M3U betul.")
         else:
-            print("[AMARAN] Tiada URL baharu dikesan untuk TV2. Pautan sedia ada dikekalkan.")
+            print("[AMARAN] TV2 URL baharu tidak ditangkap dari mana2.my. Mengekalkan pautan lama.")
+
+        # --- UPDATE KBSWORLD.KR ---
+        if new_kbs_url:
+            kbs_pattern = r'#EXTINF:-1.*?tvg-id="KBSWorld\.kr".*?\n(?:#EXTVLCOPT:.*\n)*https?://[^\s]+'
+            
+            new_kbs_block = (
+                '#EXTINF:-1 group-title="Korea" tvg-id="KBSWorld.kr" tvg-name="KBS World" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e2/KBS_World_2023.svg",KBS World\n'
+                '#EXTVLCOPT:http-referrer=https://vipotv.com/\n'
+                f'{new_kbs_url}'
+            )
+
+            if re.search(r'tvg-id="KBSWorld\.kr"', content):
+                content = re.sub(kbs_pattern, new_kbs_block, content, flags=re.DOTALL)
+                print(f"[SUKSES] KBSWorld.kr dikemas kini -> {new_kbs_url}")
+                updated = True
+            else:
+                print("[WARING] Tag tvg-id=\"KBSWorld.kr\" tidak dijumpai dalam M3U.")
+        else:
+            print("[AMARAN] KBS World URL baharu tidak ditangkap. Mengekalkan pautan lama.")
 
         # --- SIMPAN FAIL ---
         if updated:
             with open(MASTER_M3U, "w", encoding="utf-8") as f:
                 f.write(content)
-            print(f"\nBerjaya mengemas kini {MASTER_M3U}!")
+            print(f"\nFail {MASTER_M3U} BERJAYA dikemas kini!")
         else:
-            print("\nTiada peranti/sumber baharu ditemui. Fail M3U dikekalkan.")
+            print("\nTiada perubahan dilakukan pada fail M3U.")
 
     except Exception as e:
-        print(f"Ralat semasa membaca/menulis fail M3U: {e}")
+        print(f"Ralat menulis fail M3U: {e}")
         sys.exit(1)
 
 if __name__ == "__main__":
