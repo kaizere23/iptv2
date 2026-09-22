@@ -14,7 +14,10 @@ HEADERS = {
     )
 }
 
+
+# ---------------------------------------------------------
 # 1. SNIFFER UNTUK KBS WORLD
+# ---------------------------------------------------------
 async def sniff_kbs_world():
     captured_urls = []
     print(f"Mencari pautan stream KBS World di {TARGET_KBS}...")
@@ -55,10 +58,12 @@ async def sniff_kbs_world():
     return valid_urls[-1] if valid_urls else (captured_urls[-1] if captured_urls else None)
 
 
-# 2. SNIFFER UNTUK TV2 (MANA2.MY)
-async def sniff_tv2():
+# ---------------------------------------------------------
+# 2. SNIFFER UNTUK TV2 (FORCE 1080P)
+# ---------------------------------------------------------
+async def sniff_tv2_1080p():
     captured_urls = []
-    print(f"Mencari pautan stream TV2 di {TARGET_TV2}...")
+    print(f"Mencari pautan stream TV2 (1080p) di {TARGET_TV2}...")
 
     async with async_playwright() as p:
         browser = await p.chromium.launch(
@@ -92,14 +97,27 @@ async def sniff_tv2():
 
         await browser.close()
 
-    valid_urls = [u for u in captured_urls if "tv2" in u.lower() or "tenbyte" in u.lower() or "m3u8" in u.lower()]
-    return valid_urls[-1] if valid_urls else (captured_urls[-1] if captured_urls else None)
+    valid_urls = [u for u in captured_urls if "tv2" in u.lower() or "tenbyte" in u.lower() or "rtm" in u.lower()]
+    if not valid_urls:
+        return None
+
+    raw_url = valid_urls[-1]
+
+    # Paksa tukar parameter kualiti rendah kepada 1080p
+    url_1080p = raw_url.replace("tv2_720p", "tv2_1080p") \
+                        .replace("tv2_480p", "tv2_1080p") \
+                        .replace("tv2_360p", "tv2_1080p") \
+                        .replace("index_720p", "index_1080p")
+
+    return url_1080p
 
 
-# 3. LOGIK UTAMA UNTUK SUNTIK KEDUA-DUA URL KE M3U
+# ---------------------------------------------------------
+# 3. LOGIK UTAMA KEMAS KINI FAIL M3U
+# ---------------------------------------------------------
 async def main():
     new_kbs_url = await sniff_kbs_world()
-    new_tv2_url = await sniff_tv2()
+    new_tv2_url = await sniff_tv2_1080p()
 
     try:
         with open(MASTER_M3U, "r", encoding="utf-8") as f:
@@ -107,33 +125,44 @@ async def main():
 
         updated = False
 
-        # Kemas kini KBS World jika jumpa URL baharu
+        # --- UPDATE KBS WORLD ---
         if new_kbs_url:
-            kbs_pattern = r'(#EXTINF:-1.*?tvg-id="KBSWorld\.kr".*?\n(?:#EXTVLCOPT:.*\n)*)(https?://[^\s]+)'
-            if re.search(kbs_pattern, content):
-                content = re.sub(kbs_pattern, rf'\1{new_kbs_url}', content)
+            kbs_block_pattern = r'#EXTINF:-1.*?tvg-id="KBSWorld\.kr".*?\n(?:#EXTVLCOPT:.*\n)*https?://[^\s]+'
+            new_kbs_block = (
+                '#EXTINF:-1 group-title="Korea" tvg-id="KBSWorld.kr" tvg-name="KBS World" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e2/KBS_World_2023.svg",KBS World\n'
+                '#EXTVLCOPT:http-referrer=https://vipotv.com/\n'
+                f'{new_kbs_url}'
+            )
+            if re.search(r'tvg-id="KBSWorld\.kr"', content):
+                content = re.sub(kbs_block_pattern, new_kbs_block, content, flags=re.DOTALL)
                 print(f"[SUKSES] KBS World dikemas kini -> {new_kbs_url}")
                 updated = True
         else:
             print("[AMARAN] Tiada URL baharu dikesan untuk KBS World. Pautan sedia ada dikekalkan.")
 
-        # Kemas kini TV2 jika jumpa URL baharu
+        # --- UPDATE TV2 1080P ---
         if new_tv2_url:
-            tv2_pattern = r'(#EXTINF:-1.*?tvg-id="TV2\.my".*?\n(?:#EXTVLCOPT:.*\n)*)(https?://[^\s]+)'
-            if re.search(tv2_pattern, content):
-                content = re.sub(tv2_pattern, rf'\1{new_tv2_url}', content)
-                print(f"[SUKSES] TV2 dikemas kini -> {new_tv2_url}")
+            tv2_block_pattern = r'#EXTINF:-1.*?tvg-id="TV2\.my".*?\n(?:#EXTVLCOPT:.*\n)*https?://[^\s]+'
+            new_tv2_block = (
+                '#EXTINF:-1 group-title="Malaysia" tvg-id="TV2.my" tvg-name="TV2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/29/TV2_logo_2021.svg",TV2 (1080p)\n'
+                '#EXTVLCOPT:http-referrer=https://www.mana2.my/\n'
+                '#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)\n'
+                f'{new_tv2_url}'
+            )
+            if re.search(r'tvg-id="TV2\.my"', content):
+                content = re.sub(tv2_block_pattern, new_tv2_block, content, flags=re.DOTALL)
+                print(f"[SUKSES] TV2 1080p dikemas kini -> {new_tv2_url}")
                 updated = True
         else:
             print("[AMARAN] Tiada URL baharu dikesan untuk TV2. Pautan sedia ada dikekalkan.")
 
-        # Simpan fail jika ada perubahan
+        # --- SIMPAN FAIL ---
         if updated:
             with open(MASTER_M3U, "w", encoding="utf-8") as f:
                 f.write(content)
             print(f"\nBerjaya mengemas kini {MASTER_M3U}!")
         else:
-            print("\nTiada peranti/sumber baharu ditemui untuk kedua-dua saluran. Fail M3U dikekalkan.")
+            print("\nTiada peranti/sumber baharu ditemui. Fail M3U dikekalkan.")
 
     except Exception as e:
         print(f"Ralat semasa membaca/menulis fail M3U: {e}")
