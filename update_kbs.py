@@ -3,7 +3,7 @@ import re
 import sys
 from playwright.async_api import async_playwright
 
-TARGET_KBS = "https://vipotv.com/kbs-world"
+TARGET_KBS = "https://www.bosstv.top/kor/kbs-world"
 TARGET_TV2 = "https://www.mana2.my/channel/tv2"
 MASTER_M3U = "myplaylist latest.m3u"
 
